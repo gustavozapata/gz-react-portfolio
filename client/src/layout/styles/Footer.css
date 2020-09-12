@@ -2,6 +2,7 @@
   background-color: #f7f7f7;
   text-align: center;
   padding: 1px;
+  font-size: 0.9em;
 }
 .Footer main {
   display: flex;
@@ -25,4 +26,7 @@
 .Footer main ul li {
   list-style: none;
   margin-bottom: 10px;
+}
+.Footer .bottom {
+  font-weight: bold;
 }

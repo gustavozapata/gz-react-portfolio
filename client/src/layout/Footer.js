@@ -28,7 +28,9 @@ export default function Footer() {
           </ul>
         </div>
       </main>
-      <div className="bottom">&copy; GZ 2020</div>
+      <div className="bottom">
+        <p>&copy; GZ 2020</p>
+      </div>
     </div>
   );
 }

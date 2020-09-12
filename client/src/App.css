@@ -6,10 +6,24 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.App {
+  width: 95%;
+  margin: 0 auto;
+  /* padding: 10px; */
+  /* margin: 20px; */
+}
+
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 80%; */
   height: 100vh;
   color: #455268;
 }
 .header p {
   font-weight: bold;
+}
+.header h3 {
+  text-align: center;
 }
