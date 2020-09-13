@@ -27,6 +27,14 @@ export default function Footer() {
             <li>Stackoverflow</li>
           </ul>
         </div>
+        <div>
+          <p>TECHNOLOGIES</p>
+          <ul>
+            <li>React</li>
+            <li>Node</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
       </main>
       <div className="bottom">
         <p>&copy; GZ 2020</p>

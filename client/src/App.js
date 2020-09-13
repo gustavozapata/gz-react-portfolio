@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./layout/Skills";
 import Footer from "./layout/Footer";
 import "./App.css";
 
@@ -12,6 +13,9 @@ function App() {
         </h1>
         <h3>FULLSTACK DEVELOPER</h3>
       </header>
+      <main>
+        <Skills />
+      </main>
       <Footer />
     </div>
   );

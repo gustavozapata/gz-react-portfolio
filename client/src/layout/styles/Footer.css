@@ -1,12 +1,14 @@
 .Footer {
   background-color: #f7f7f7;
+  background-color: #211e5b;
   text-align: center;
   padding: 1px;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  color: #d3d3d3;
 }
 .Footer main {
   display: flex;
-  width: 60%;
+  width: 70%;
   max-width: 800px;
   /* justify-items: center; */
   /* align-items: center; */
@@ -28,5 +30,5 @@
   margin-bottom: 10px;
 }
 .Footer .bottom {
-  font-weight: bold;
+  font-weight: 500;
 }

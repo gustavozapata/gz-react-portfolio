@@ -1,0 +1,55 @@
+.Skills {
+  background-color: #f6f9fc;
+}
+.Skills .page {
+  width: 92%;
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 1px;
+}
+.Skills h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-top: 100px;
+  color: #645bff;
+  color: #211e5b;
+  /* color: #455268; */
+}
+.Skills h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #0b2540;
+}
+.Skills p {
+  width: 90%;
+  /* font-size: 1.2em; */
+  font-weight: 500;
+  color: #465767;
+}
+.Skills p span {
+  color: #645bff;
+}
+.Skills main {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 70px auto;
+  /* border: 1px solid red; */
+}
+.Skills main div {
+  display: inline-block;
+  /* border: 1px solid red; */
+}
+.Skills main span {
+  display: block;
+  margin: 60px 0;
+}
+.Skills main img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.Skills main div p {
+  display: inline;
+  font-weight: 500;
+}
