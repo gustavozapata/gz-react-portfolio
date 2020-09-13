@@ -1,13 +1,13 @@
 .Skills {
   background-color: #f6f9fc;
 }
-.Skills .page {
+.page {
   width: 92%;
   max-width: 1300px;
   margin: 0px auto;
   padding: 1px;
 }
-.Skills h1 {
+.page h1 {
   font-size: 2.5em;
   font-weight: 600;
   margin-top: 100px;
@@ -15,21 +15,21 @@
   color: #211e5b;
   /* color: #455268; */
 }
-.Skills h3 {
+.page h3 {
   font-weight: 600;
   font-size: 1.2em;
   color: #0b2540;
 }
-.Skills p {
+.page p {
   width: 90%;
   /* font-size: 1.2em; */
   font-weight: 500;
   color: #465767;
 }
-.Skills p span {
+.page p span {
   color: #645bff;
 }
-.Skills main {
+.page main {
   width: 90%;
   display: flex;
   justify-content: space-around;

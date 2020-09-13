@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./layout/Skills";
+import Projects from "./layout/Projects";
 import Footer from "./layout/Footer";
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
       </header>
       <main>
         <Skills />
+        <Projects />
       </main>
       <Footer />
     </div>
