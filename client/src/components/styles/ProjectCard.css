@@ -1,0 +1,33 @@
+.ProjectCard {
+  display: inline-block;
+  text-align: left;
+  margin: 30px;
+  width: 250px;
+  padding: 10px;
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(204, 204, 204), -2px -2px 5px rgb(204, 204, 204);
+}
+.ProjectCard .title {
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 0;
+}
+.ProjectCard .type-project {
+  color: #767676;
+  font-size: 0.9em;
+  margin: 5px 0 0 0;
+}
+.ProjectCard .tech {
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.ProjectCard .tech img {
+  width: 20px;
+  vertical-align: middle;
+}
+.ProjectCard .tech p {
+  display: inline;
+  margin-left: 5px;
+  font-size: 0.85em;
+}

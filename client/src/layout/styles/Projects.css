@@ -1,4 +1,5 @@
-.Projects .title {
-  font-weight: 600;
-  font-size: 1.3em;
+.Projects main {
+  margin: 50px auto;
+  text-align: center;
+  /* border: 1px solid red; */
 }

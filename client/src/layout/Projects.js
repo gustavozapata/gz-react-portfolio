@@ -15,6 +15,11 @@ export default function Projects() {
         </p>
         <main>
           <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
         </main>
       </div>
     </div>
