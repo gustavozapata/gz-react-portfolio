@@ -22,9 +22,42 @@ export default function Footer() {
         <div>
           <p>PROFILES</p>
           <ul>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
-            <li>Stackoverflow</li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gustavo-zapata/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("../images/linkedin.png")}
+                  alt="LinkedIn logo"
+                />
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/gustavozapata"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={require("../images/github.png")} alt="GitHub logo" />
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://stackoverflow.com/users/6099890/gustavozapata"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("../images/stackoverflow.png")}
+                  alt="Stack Overflow logo"
+                />
+                Stackoverflow
+              </a>
+            </li>
           </ul>
         </div>
         <div>

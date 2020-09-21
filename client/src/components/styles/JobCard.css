@@ -1,0 +1,28 @@
+.JobCard {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 90px auto;
+}
+.JobCard .logo {
+  flex-basis: 200px;
+}
+.JobCard .logo img {
+  width: 60px;
+}
+.JobCard .description {
+  flex-basis: 600px;
+}
+.JobCard .company {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 3px 0;
+}
+.JobCard .role {
+  color: #000;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 5px 0;
+}

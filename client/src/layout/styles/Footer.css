@@ -29,6 +29,15 @@
   list-style: none;
   margin-bottom: 10px;
 }
+.Footer main ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+.Footer main ul li img {
+  width: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
 .Footer .bottom {
   font-weight: 500;
 }
