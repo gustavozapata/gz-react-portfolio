@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
 
-html[theme="dark-mode"] {
-  filter: invert(1) hue-rotate(180deg);
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -33,4 +29,15 @@ body {
 }
 .header h3 {
   text-align: center;
+}
+
+/* TODO: DARK-MODE */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #242424;
+  }
+  .header {
+    color: #fff;
+  }
 }
