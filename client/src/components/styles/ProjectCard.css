@@ -3,6 +3,7 @@
   text-align: left;
   margin: 30px;
   width: 250px;
+  height: 200px;
   padding: 10px;
   /* border: 1px solid gray; */
   border-radius: 10px;
@@ -15,7 +16,7 @@
 }
 .ProjectCard .type-project {
   color: #767676;
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin: 5px 0 0 0;
 }
 .ProjectCard .tech {
@@ -23,11 +24,11 @@
   margin-top: 10px;
 }
 .ProjectCard .tech img {
-  width: 20px;
+  width: 18px;
   vertical-align: middle;
 }
 .ProjectCard .tech p {
   display: inline;
   margin-left: 5px;
-  font-size: 0.85em;
+  font-size: 0.75em;
 }

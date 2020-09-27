@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import "./styles/Projects.css";
+import projects from "../data/projects.json"
 
 export default function Projects() {
   return (
@@ -14,12 +15,9 @@ export default function Projects() {
           <span> professional and technical skills.</span>
         </p>
         <main>
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {projects.map(project => (
+            <ProjectCard project={project} key={project.id} />
+          ))}
         </main>
       </div>
     </div>

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 2,
+        "name": "React",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 3,
+        "name": "Node",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 4,
+        "name": "MongoDB",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 5,
+        "name": "Swift",
+        "type": "Educational Experience"
+    },
+    {
+        "id": 6,
+        "name": "Java",
+        "type": "Educational Experience"
+    },
+    {
+        "id": 7,
+        "name": "PHP",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 8,
+        "name": "MySQL",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 9,
+        "name": "Git",
+        "type": "Professional Experience"
+    }
+]

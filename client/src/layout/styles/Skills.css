@@ -30,26 +30,15 @@
   color: #645bff;
 }
 .Skills .page main {
-  width: 90%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-around;
   margin: 70px auto;
   /* border: 1px solid red; */
 }
-.Skills main div {
-  display: inline-block;
-  /* border: 1px solid red; */
-}
-.Skills main span {
-  display: block;
-  margin: 60px 0;
-}
-.Skills main img {
-  width: 40px;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-.Skills main div p {
-  display: inline;
-  font-weight: 500;
+.cards {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* border: 1px solid blue; */
 }

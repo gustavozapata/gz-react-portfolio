@@ -12,7 +12,7 @@ function App() {
       <header className="header">
         <p>Gustavo Zapata</p>
         <h1>
-          I’m passionate about the design and development of computer programs
+          Passionate about the design and development of computer programs
         </h1>
         <h3>FULLSTACK DEVELOPER</h3>
       </header>
