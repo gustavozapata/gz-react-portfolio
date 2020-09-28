@@ -58,6 +58,16 @@ export default function Footer() {
                 Stackoverflow
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.hackerrank.com/tavordie?hr_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={require("../images/hackerrank2.png")} alt="HackerRank logo" />
+                HackerRank
+              </a>
+            </li>
           </ul>
         </div>
         <div>
