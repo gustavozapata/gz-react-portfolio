@@ -1,19 +1,19 @@
 import React from "react";
 import "./styles/ProjectCard.css";
+import {convertToImageName} from "../utils/utils"
 
-export default function ProjectCard() {
+export default function ProjectCard({project}) {
+  const {name, type, technologies} = project
   return (
     <div className="ProjectCard">
-      <p className="title">API with Spring Boot</p>
-      <p className="type-project">Personal Project</p>
-      <div className="tech">
-        <img src={require("../images/spring.png")} alt="Spring Boot Icon" />
-        <p>Spring Boot</p>
+      <p className="title">{name}</p>
+      <p className="type-project">{type}</p>
+      {technologies.map((tech, i) => (
+        <div className="tech" key={i}>
+        <img src={require(`../images/${convertToImageName(tech)}.png`)} alt={`${tech} Icon`}/>
+        <p>{tech}</p>
       </div>
-      <div className="tech">
-        <img src={require("../images/js.png")} alt="JavaScript Icon" />
-        <p>JavaScript</p>
-      </div>
+      ))}
     </div>
   );
 }

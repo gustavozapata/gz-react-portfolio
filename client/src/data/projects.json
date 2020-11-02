@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Zona Social Media",
+        "type": "Personal Project",
+        "technologies": ["React", "Node", "Express", "MongoDB"]
+    },
+    {
+        "id": 2,
+        "name": "API with Spring Boot",
+        "type": "Personal Project",
+        "technologies": ["Java", "Spring Boot", "jQuery", "JavaScript"]
+    },
+    {
+        "id": 3,
+        "name": "Sunny Eco",
+        "type": "Professional Project",
+        "technologies": ["PHP", "MySQL", "jQuery", "JavaScript"]
+    },
+    {
+        "id": 4,
+        "name": "Trade Ledger",
+        "type": "Hackathon",
+        "technologies": ["JavaScript", "jQuery", "HTML5", "CSS3"]
+    },
+    {
+        "id": 5,
+        "name": "Real Media Now",
+        "type": "Professional Project",
+        "technologies": ["PHP", "JavaScript", "HTML5", "CSS3"]
+    },
+    {
+        "id": 6,
+        "name": "Zanto",
+        "type": "Professional Project",
+        "technologies": ["JavaScript", "jQuery", "HTML5", "CSS3"]
+    },
+    {
+        "id": 7,
+        "name": "PayPal Hack 2019",
+        "type": "Hackathon",
+        "technologies": ["React", "Python", "JavaScript"]
+    },
+    {
+        "id": 8,
+        "name": "Kapp",
+        "type": "Personal Project",
+        "technologies": ["Electron", "JavaScript", "HTML5"]
+    }
+]

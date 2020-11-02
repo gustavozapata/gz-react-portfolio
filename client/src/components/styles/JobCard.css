@@ -19,10 +19,12 @@
   font-size: 1em;
   font-weight: 600;
   margin: 3px 0;
+  color: #465767;
 }
 .JobCard .role {
-  color: #000;
+  /* color: #000; */
+  color: #211e5b;
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: 500;
   margin: 5px 0;
 }
