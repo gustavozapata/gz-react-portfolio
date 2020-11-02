@@ -1,20 +1,44 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Skills from "./layout/Skills";
 import Projects from "./layout/Projects";
 import Work from "./layout/Work";
 import Education from "./layout/Education";
 import Footer from "./layout/Footer";
+import { EN_Content } from "./content/English";
+import { ES_Content } from "./content/Spanish";
 import "./App.css";
 
 function App() {
+  const [content, setContent] = useState({});
+  const [language, setLanguage] = useState(localStorage.getItem("language"));
+
+  useEffect(() => {
+    if (language) {
+      updateLanguage(language);
+    } else {
+      localStorage.setItem("language", "English");
+      setContent(EN_Content);
+      setLanguage("English");
+    }
+  }, []);
+
+  const updateLanguage = (lang) => {
+    setLanguage(lang);
+    if (lang === "English") {
+      setContent(EN_Content);
+      localStorage.setItem("language", "English");
+    } else {
+      setContent(ES_Content);
+      localStorage.setItem("language", "Spanish");
+    }
+  };
+
   return (
     <div className="App">
       <header className="header">
         <p>Gustavo Zapata</p>
-        <h1>
-          I’m passionate about the design and development of computer programs
-        </h1>
-        <h3>FULLSTACK DEVELOPER</h3>
+        <h1>{content.TITLE}</h1>
+        <h3>{content.SUB_TITLE}</h3>
       </header>
       <main>
         <Skills />
@@ -22,7 +46,7 @@ function App() {
         <Work />
         <Education />
       </main>
-      <Footer />
+      <Footer setLanguage={updateLanguage} />
     </div>
   );
 }

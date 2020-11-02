@@ -41,3 +41,6 @@
 .Footer .bottom {
   font-weight: 500;
 }
+.Footer .languages ul li {
+  cursor: pointer;
+}

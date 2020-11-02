@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Footer.css";
 
-export default function Footer() {
+export default function Footer({ setLanguage }) {
   return (
     <div className="Footer">
       <main>
@@ -12,11 +12,11 @@ export default function Footer() {
             <li>GZ Version 2.0</li>
           </ul>
         </div>
-        <div>
+        <div className="languages">
           <p>LANGUAGES</p>
           <ul>
-            <li>English</li>
-            <li>Spanish</li>
+            <li onClick={() => setLanguage("English")}>English</li>
+            <li onClick={() => setLanguage("Spanish")}>Spanish</li>
           </ul>
         </div>
         <div>
