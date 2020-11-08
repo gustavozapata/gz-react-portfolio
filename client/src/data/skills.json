@@ -41,6 +41,21 @@
     },
     {
         "id": 9,
+        "name": "Python",
+        "type": "Educational Experience"
+    },
+    {
+        "id": 10,
+        "name": "HTML",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 11,
+        "name": "CSS",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 12,
         "name": "Git",
         "type": "Professional Experience"
     }

@@ -21,30 +21,30 @@
         "id": 4,
         "name": "Trade Ledger",
         "type": "Hackathon",
-        "technologies": ["JavaScript", "jQuery", "HTML5", "CSS3"]
+        "technologies": ["JavaScript", "jQuery", "HTML", "CSS"]
     },
     {
         "id": 5,
         "name": "Real Media Now",
         "type": "Professional Project",
-        "technologies": ["PHP", "JavaScript", "HTML5", "CSS3"]
+        "technologies": ["PHP", "JavaScript", "HTML", "CSS"]
     },
     {
         "id": 6,
         "name": "Zanto",
         "type": "Professional Project",
-        "technologies": ["JavaScript", "jQuery", "HTML5", "CSS3"]
+        "technologies": ["JavaScript", "jQuery", "HTML", "CSS"]
     },
     {
         "id": 7,
         "name": "PayPal Hack 2019",
         "type": "Hackathon",
-        "technologies": ["React", "Python", "JavaScript"]
+        "technologies": ["React", "Python", "JavaScript", "CSS"]
     },
     {
         "id": 8,
         "name": "Kapp",
         "type": "Personal Project",
-        "technologies": ["Electron", "JavaScript", "HTML5"]
+        "technologies": ["Electron", "JavaScript", "HTML", "CSS"]
     }
 ]
