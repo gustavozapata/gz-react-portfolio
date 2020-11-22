@@ -1,12 +1,16 @@
 .ProjectCard {
+  position: relative;
   display: inline-block;
   text-align: left;
   margin: 50px;
-  width: 250px;
-  height: 185px;
+  width: 255px;
+  /* height: 240px; */
+  /* min-height: 238.5px; */
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px rgb(204, 204, 204), -2px -2px 5px rgb(204, 204, 204);
+  /* border: 2px solid black; */
+  /* box-shadow: 2px 2px 5px rgb(204, 204, 204), -2px -2px 5px rgb(204, 204, 204); */
+  box-shadow: 2px 2px 5px rgb(204, 204, 204);
 }
 .ProjectCard .title {
   font-weight: 600;
@@ -18,17 +22,80 @@
   font-size: 0.8em;
   margin: 5px 0 12px 0;
 }
+.ProjectCard .project-techs {
+  /* text-align: center; */
+  /* display: flex; */
+}
 .ProjectCard .tech {
+  display: inline-block;
   vertical-align: middle;
   width: 100px;
-  margin: 5px 0 0 10px;
+  margin: 5px 10px 0 15px;
 }
 .ProjectCard .tech img {
-  width: 16px;
+  width: 18px;
   vertical-align: middle;
 }
 .ProjectCard .tech p {
   display: inline;
   margin-left: 5px;
   font-size: 0.65em;
+}
+.ProjectCard .project-img {
+  text-align: center;
+  margin: 20px;
+}
+.ProjectCard .project-img img {
+  width: 65px;
+}
+
+.zona .project-img img {
+  width: 123px;
+}
+.realmedia .project-img {
+  margin: 0;
+}
+.zona .project-img {
+  margin: 35px;
+}
+.zanto .project-img {
+  margin: 31px;
+}
+.sunny .project-img {
+  margin: 22px;
+}
+.helpal .project-img {
+  margin: 30px;
+}
+
+.sunny .project-img img {
+  width: 83px;
+}
+.realmedia .project-img img {
+  width: 129px;
+}
+.helpal .project-img img {
+  width: 100px;
+}
+.springboot .project-img img {
+  width: 87px;
+}
+.tradeledger .project-img img {
+  width: 96px;
+}
+
+.helpal {
+  background-color: #f7f7f7;
+}
+.realmedia {
+  background-color: #eaeaea;
+}
+.tradeledger {
+  background-color: #c8ebfc;
+}
+.zanto {
+  background-color: #f5cf36;
+}
+.springboot {
+  background-color: #e0facb;
 }
