@@ -8,9 +8,12 @@
   /* min-height: 238.5px; */
   padding: 10px;
   border-radius: 10px;
-  /* border: 2px solid black; */
-  /* box-shadow: 2px 2px 5px rgb(204, 204, 204), -2px -2px 5px rgb(204, 204, 204); */
   box-shadow: 2px 2px 5px rgb(204, 204, 204);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.ProjectCard:hover {
+  box-shadow: 5px 5px 15px rgb(184, 184, 184);
 }
 .ProjectCard .title {
   font-weight: 600;
@@ -22,24 +25,20 @@
   font-size: 0.8em;
   margin: 5px 0 12px 0;
 }
-.ProjectCard .project-techs {
-  /* text-align: center; */
-  /* display: flex; */
-}
 .ProjectCard .tech {
   display: inline-block;
   vertical-align: middle;
   width: 100px;
-  margin: 5px 10px 0 15px;
+  margin: 5px 0px 0 10px;
 }
 .ProjectCard .tech img {
-  width: 18px;
+  width: 17px;
   vertical-align: middle;
 }
 .ProjectCard .tech p {
   display: inline;
   margin-left: 5px;
-  font-size: 0.65em;
+  font-size: 0.6em;
 }
 .ProjectCard .project-img {
   text-align: center;
@@ -65,7 +64,10 @@
   margin: 22px;
 }
 .helpal .project-img {
-  margin: 30px;
+  margin: 38px;
+}
+.kapp .project-img {
+  margin: 31px;
 }
 
 .sunny .project-img img {

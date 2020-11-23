@@ -1,58 +1,66 @@
 [
     {
-        "id": 1,
-        "name": "Zona Social Media",
-        "identifier": "zona",
-        "type": "Personal Project",
-        "technologies": ["React", "Node", "Express", "MongoDB"]
-    },
-    {
         "id": 2,
         "name": "API with Spring Boot",
         "identifier": "springboot",
+        "link": "https://gz-spring-boot.herokuapp.com/",
         "type": "Personal Project",
-        "technologies": ["Java", "Spring Boot", "jQuery", "JavaScript"]
+        "technologies": ["Java", "JavaScript", "Spring Boot", "jQuery"]
+    },
+    {
+        "id": 2,
+        "name": "PayPal Hackathon 2019",
+        "identifier": "helpal",
+        "link": "https://mighty-reef-20228.herokuapp.com/",
+        "type": "Hackathon",
+        "technologies": ["JavaScript", "React", "Python", "CSS"]
     },
     {
         "id": 3,
         "name": "Sunny Eco",
         "identifier": "sunny",
+        "link": "https://gustavozapata.me/GZ1/work/sunny/",
         "type": "Professional Project",
-        "technologies": ["PHP", "MySQL", "jQuery", "JavaScript"]
+        "technologies": ["PHP", "JavaScript", "MySQL", "jQuery"]
     },
     {
         "id": 4,
         "name": "Trade Ledger",
         "identifier": "tradeledger",
+        "link": "https://gustavozapata.me/work/tradeledger/",
         "type": "Hackathon",
-        "technologies": ["JavaScript", "jQuery", "HTML", "CSS"]
+        "technologies": ["JavaScript", "HTML", "jQuery", "CSS"]
     },
     {
         "id": 5,
         "name": "Real Media Now",
         "identifier": "realmedia",
+        "link": "https://realmedianow.com/",
         "type": "Professional Project",
-        "technologies": ["PHP", "JavaScript", "HTML", "CSS"]
+        "technologies": ["PHP", "HTML", "JavaScript", "CSS"]
     },
     {
         "id": 6,
         "name": "Zanto",
         "identifier": "zanto",
+        "link": "https://gustavozapata.github.io/Zanto/",
         "type": "Professional Project",
-        "technologies": ["JavaScript", "jQuery", "HTML", "CSS"]
+        "technologies": ["JavaScript", "HTML", "jQuery", "CSS"]
     },
     {
         "id": 7,
-        "name": "PayPal Hackathon 2019",
-        "identifier": "helpal",
-        "type": "Hackathon",
-        "technologies": ["React", "Python", "JavaScript", "CSS"]
+        "name": "Kapp",
+        "identifier": "kapp",
+        "link": "https://github.com/gustavozapata/kapp",
+        "type": "Personal Project",
+        "technologies": ["Electron", "HTML", "JavaScript", "CSS"]
     },
     {
         "id": 8,
-        "name": "Kapp",
-        "identifier": "kapp",
+        "name": "Zona Social Media",
+        "identifier": "zona",
+        "link": "https://zona.gustavozapata.me/",
         "type": "Personal Project",
-        "technologies": ["Electron", "JavaScript", "HTML", "CSS"]
+        "technologies": ["React", "Node", "Express", "MongoDB"]
     }
 ]

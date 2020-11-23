@@ -21,6 +21,11 @@ body {
   margin: 0 auto;
   color: #455268;
 }
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header p {
   font-weight: bold;
 }

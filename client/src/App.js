@@ -7,6 +7,7 @@ import Footer from "./layout/Footer";
 import { EN_Content } from "./content/English";
 import { ES_Content } from "./content/Spanish";
 import "./App.css";
+import Toggle from "./components/Toggle";
 
 function App() {
   const [content, setContent] = useState({});
@@ -36,14 +37,17 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <p>Gustavo Zapata</p>
+        <div className="header-top">
+          <p>Gustavo Zapata</p>
+          <Toggle />
+        </div>
         <h1>{content.TITLE}</h1>
         <h3>{content.SUB_TITLE}</h3>
       </header>
       <main>
         <Skills />
-        <Projects />
         <Work />
+        <Projects />
         <Education />
       </main>
       <Footer setLanguage={updateLanguage} />
