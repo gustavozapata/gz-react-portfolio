@@ -7,7 +7,7 @@ import Footer from "./layout/Footer";
 import { EN_Content } from "./content/English";
 import { ES_Content } from "./content/Spanish";
 import "./App.css";
-import Toggle from "./components/Toggle";
+import Settings from "./components/Settings";
 
 function App() {
   const [content, setContent] = useState({});
@@ -39,7 +39,9 @@ function App() {
       <header className="header">
         <div className="header-top">
           <p>Gustavo Zapata</p>
-          <Toggle />
+          <div style={{ marginTop: 20 }}>
+            <Settings />
+          </div>
         </div>
         <h1>{content.TITLE}</h1>
         <h3>{content.SUB_TITLE}</h3>

@@ -1,16 +1,17 @@
 import React from "react";
 import "./styles/Toggle.css";
 
-const Toggle = () => {
+const Toggle = ({ setting, isOn, setIsOn }) => {
   return (
     <div className="Toggle">
       <input
         type="checkbox"
-        name="toggle1"
-        className="mobileToggle"
-        id="toggle1"
+        name={setting}
+        className={"mobileToggle"}
+        id={setting}
+        checked={isOn ? true : false}
       />
-      <label for="toggle1"></label>
+      <label for={setting} onClick={setIsOn}></label>
     </div>
   );
 };
