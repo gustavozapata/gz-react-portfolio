@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "company":"Cisco",
+        "role":"Software Engineer",
+        "image":"cisco.jpg",
+        "description":"Designed and developed solutions on a web based application used by millions"
+    },
+    {
+        "id": 2,
+        "company": "Sunny Eco",
+        "role": "Fullstack Developer",
+        "image": "sunny.png",
+        "description": "Designed and developed a business website"
+    },
+    {
+        "id": 3,
+        "company":"SHL",
+        "role":"Web Developer",
+        "image":"shl.png",
+        "description":"Designed and developed a web tool for creating interviews for customers like American Express, Lloyds Bank and Mercedes-Benz"
+    },
+    {
+        "id": 4,
+        "company": "Real Media Now",
+        "role": "Web Designer and Web Developer",
+        "image": "realmedia.jpg",
+        "description": "Redesigned and developed a web application during my first year as a Computer Science student via the Broadening Horizons programme at Kingston University"
+    }
+]

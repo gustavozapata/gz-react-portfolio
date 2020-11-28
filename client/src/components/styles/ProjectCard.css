@@ -9,8 +9,10 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(204, 204, 204);
+  /* border: 1px solid grey; */
   cursor: pointer;
   transition: box-shadow 0.2s;
+  /* background-color: #fff; */
 }
 .ProjectCard:hover {
   box-shadow: 5px 5px 15px rgb(184, 184, 184);
@@ -97,6 +99,9 @@
 }
 .zanto {
   background-color: #f5cf36;
+}
+.zona {
+  background-color: #fff;
 }
 .springboot {
   /* background-color: #e0facb; */

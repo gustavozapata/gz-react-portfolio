@@ -2,18 +2,27 @@
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
+  justify-content: space-around;
   width: 80%;
-  max-width: 800px;
+  max-width: 850px;
   margin: 90px auto;
 }
 .JobCard .logo {
-  flex-basis: 200px;
+  text-align: center;
+  flex-basis: 120px;
+  /* border: 1px solid orange; */
 }
 .JobCard .logo img {
   width: 60px;
 }
-.JobCard .description {
+.JobCard .logo p {
+  text-align: center;
+  margin: 10px auto;
+  /* margin: 0px auto; */
+}
+.JobCard .information {
   flex-basis: 600px;
+  /* border: 1px solid blue; */
 }
 .JobCard .company {
   font-size: 1em;
@@ -21,10 +30,20 @@
   margin: 3px 0;
   color: #465767;
 }
+.JobCard .date {
+  font-size: 0.7em;
+  color: gray;
+}
+.JobCard .description {
+  font-weight: 400;
+}
 .JobCard .role {
   /* color: #000; */
   color: #211e5b;
   font-size: 1.4em;
   font-weight: 500;
   margin: 5px 0;
+}
+.JobCard #SHL {
+  width: 80px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import "./styles/Projects.css";
 import projects from "../data/projects.json";
+import "./styles/Projects.css";
 
 export default function Projects() {
   return (
