@@ -1,0 +1,10 @@
+.Settings .toggleContainer {
+  display: flex;
+  align-items: center;
+}
+.toggleContainer img {
+  width: 15px;
+}
+.toggleContainer p {
+  font-size: 0.6em;
+}

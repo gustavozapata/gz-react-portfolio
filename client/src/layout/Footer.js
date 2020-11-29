@@ -1,26 +1,29 @@
-import React from "react";
+import React, { useContext } from "react";
+import GZContext from "../context/GZContext";
 import "./styles/Footer.css";
 
 export default function Footer() {
+  const { styling } = useContext(GZContext);
+
   return (
-    <div className="Footer">
+    <div className="Footer" style={styling.footer}>
       <main>
         <div>
-          <p>VERSIONS</p>
+          <p style={styling.footerTitle}>VERSIONS</p>
           <ul>
             <li>GZ Version 1.0</li>
             <li>GZ Version 2.0</li>
           </ul>
         </div>
         <div className="extras">
-          <p>EXTRAS</p>
+          <p style={styling.footerTitle}>EXTRAS</p>
           <ul>
             <li>Contact Me</li>
             <li>Visitors</li>
           </ul>
         </div>
         <div>
-          <p>PROFILES</p>
+          <p style={styling.footerTitle}>PROFILES</p>
           <ul>
             <li>
               <a
@@ -64,14 +67,17 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={require("../images/hackerrank2.png")} alt="HackerRank logo" />
+                <img
+                  src={require("../images/hackerrank2.png")}
+                  alt="HackerRank logo"
+                />
                 HackerRank
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <p>TECHNOLOGIES</p>
+          <p style={styling.footerTitle}>TECHNOLOGIES</p>
           <ul>
             <li>React</li>
             <li>Node</li>

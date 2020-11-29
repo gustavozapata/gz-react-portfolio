@@ -1,46 +1,22 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Toggle from "./Toggle";
+import GZContext from "../context/GZContext";
+import "./styles/Settings.css";
 
-export default function Settings({setLanguage, setTheme, language, theme}) {
-  const [isEnglish, setIsEnglish] = useState(language === 'English' ? true : false);
-  const [isDark, setIsDark] = useState(theme === 'dark' ? true : false);
+export default function Settings() {
+  const { isEnglish, isDark, switchLanguage, switchTheme } = useContext(
+    GZContext
+  );
 
-  const switchLanguage = () => {
-    if(language === 'Spanish'){
-      setLanguage("English");
-      setIsEnglish(true);
-    } else {
-      setLanguage("Spanish");
-      setIsEnglish(false);
-    }
-  }
-
-  const switchTheme = () => {
-    if(theme === 'light'){
-      setTheme("dark");
-      setIsDark(true)
-    } else {
-      setTheme("light");
-      setIsDark(false)
-    }
-  }
   return (
-    <div>
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <Toggle
-          setting="language"
-          isOn={isEnglish}
-          setIsOn={switchLanguage}
-        />
-        <p style={{ fontSize: ".6em" }}>EN</p>
+    <div className="Settings">
+      <div className="toggleContainer">
+        <Toggle setting="language" isOn={isEnglish} setIsOn={switchLanguage} />
+        <p>EN</p>
       </div>
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <Toggle
-          setting="theme"
-          isOn={isDark}
-          setIsOn={switchTheme}
-        />
-        <img src={require("../images/dark.png")} alt="" style={{ width: 15 }} />
+      <div className="toggleContainer">
+        <Toggle setting="theme" isOn={isDark} setIsOn={switchTheme} />
+        <img src={require("../images/dark.png")} alt="Moon icon" />
       </div>
     </div>
   );

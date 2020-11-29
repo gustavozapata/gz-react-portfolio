@@ -1,72 +1,27 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import Skills from "./layout/Skills";
 import Projects from "./layout/Projects";
 import Work from "./layout/Work";
 import Education from "./layout/Education";
 import Footer from "./layout/Footer";
-import { EN_Content } from "./content/English";
-import { ES_Content } from "./content/Spanish";
-import { LightStyles } from "./content/LightStyles";
-import { DarkStyles } from "./content/DarkStyles";
-import "./App.css";
 import Settings from "./components/Settings";
+import GZContext from "./context/GZContext";
+import "./App.css";
 
 function App() {
-  const [content, setContent] = useState({});
-  const [styling, setStyling] = useState({});
-  const [language, setLanguage] = useState(localStorage.getItem("language"));
-  const [theme, setTheme] = useState(localStorage.getItem("theme"));
-
-  useEffect(() => {
-    if (language) {
-      updateLanguage(language);
-    } else {
-      localStorage.setItem("language", "English");
-      setContent(EN_Content);
-      setLanguage("English");
-    }
-    if(theme){
-      updateTheme(theme);
-    } else {
-      localStorage.setItem("theme", "light");
-      setStyling(LightStyles);
-      setLanguage("light");
-    }
-  }, []);
-
-  const updateLanguage = (lang) => {
-    setLanguage(lang);
-    if (lang === "English") {
-      setContent(EN_Content);
-      localStorage.setItem("language", "English");
-    } else {
-      setContent(ES_Content);
-      localStorage.setItem("language", "Spanish");
-    }
-  };
-
-  const updateTheme = (theme) => {
-    setTheme(theme);
-    if (theme === "light") {
-      setStyling(LightStyles);
-      localStorage.setItem("theme", "light");
-    } else {
-      setStyling(DarkStyles);
-      localStorage.setItem("theme", "dark");
-    }
-  }
+  const { content, styling } = useContext(GZContext);
 
   return (
-    <div className="App" style={styling}>
+    <div className="App" style={styling.app}>
       <header className="header">
         <div className="header-top">
-          <p>GUSTAVO ZAPATA</p>
+          <p style={styling.appSubtitle1}>Gustavo Zapata</p>
           <div style={{ marginTop: 20 }}>
-            <Settings setLanguage={updateLanguage} setTheme={updateTheme} language={language} theme={theme} />
+            <Settings />
           </div>
         </div>
-        <h1>{content.TITLE}</h1>
-        <h3>{content.SUB_TITLE}</h3>
+        <h1 style={styling.appTitle}>{content.TITLE}</h1>
+        <h3 style={styling.appSubtitle2}>{content.SUB_TITLE}</h3>
       </header>
       <main>
         <Skills />
@@ -74,7 +29,7 @@ function App() {
         <Projects />
         <Education />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

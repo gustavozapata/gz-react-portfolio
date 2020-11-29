@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import { GZProvider } from "./context/GZContext";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GZProvider>
+      <App />
+    </GZProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -31,6 +31,7 @@ body {
 }
 .header h1 {
   text-align: center;
+  font-size: 3em;
 }
 .header h3 {
   text-align: center;
@@ -38,11 +39,11 @@ body {
 
 /* TODO: DARK-MODE */
 @media (prefers-color-scheme: dark) {
-  /* body {
+  body {
     color: #eee;
     background: #242424;
   }
   .header {
     color: #fff;
-  } */
+  }
 }

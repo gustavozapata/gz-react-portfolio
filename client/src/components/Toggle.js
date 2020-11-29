@@ -7,11 +7,12 @@ const Toggle = ({ setting, isOn, setIsOn }) => {
       <input
         type="checkbox"
         name={setting}
-        className={"mobileToggle"}
+        className="mobileToggle"
         id={setting}
-        checked={isOn ? true : false}
+        checked={isOn}
+        onChange={setIsOn}
       />
-      <label for={setting} onClick={setIsOn}></label>
+      <label htmlFor={setting}></label>
     </div>
   );
 };

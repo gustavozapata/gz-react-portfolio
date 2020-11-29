@@ -1,7 +1,7 @@
 .Footer {
-  background-color: #211e5b;
+  /* background-color: #211e5b;
   background-color: #080635;
-  background-color: #f7f7f7;
+  background-color: #f7f7f7; */
   text-align: center;
   padding: 1px;
   font-size: 0.8em;
@@ -32,7 +32,7 @@
 }
 .Footer main ul li a {
   text-decoration: none;
-  color: #000;
+  /* color: #000; */
   /* color: #d3d3d3; */
 }
 .Footer main ul li a:hover {
