@@ -3,9 +3,10 @@
   display: inline-block;
   text-align: left;
   margin: 50px;
-  width: 255px;
+  width: 250px;
   /* height: 240px; */
   /* min-height: 238.5px; */
+  max-height: 258px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(204, 204, 204);
@@ -19,13 +20,13 @@
 }
 .ProjectCard .title {
   font-weight: 600;
-  font-size: 1.2em;
-  margin: 0;
+  font-size: 1.1em;
+  margin: 5px;
 }
 .ProjectCard .type-project {
   color: #767676;
   font-size: 0.8em;
-  margin: 5px 0 12px 0;
+  margin: 5px 0 12px 5px;
 }
 .ProjectCard .tech {
   display: inline-block;
@@ -47,12 +48,9 @@
   margin: 20px;
 }
 .ProjectCard .project-img img {
-  width: 65px;
+  width: 55px;
 }
 
-.zona .project-img img {
-  width: 123px;
-}
 .realmedia .project-img {
   margin: 0;
 }
@@ -72,20 +70,26 @@
   margin: 31px;
 }
 
+.zona .project-img img {
+  width: 101px;
+}
 .sunny .project-img img {
-  width: 83px;
+  width: 73px;
 }
 .realmedia .project-img img {
-  width: 129px;
+  width: 118px;
 }
 .helpal .project-img img {
-  width: 100px;
+  width: 80px;
 }
 .springboot .project-img img {
-  width: 87px;
+  width: 77px;
 }
 .tradeledger .project-img img {
-  width: 96px;
+  width: 85px;
+}
+.gz .project-img img {
+  width: 86px;
 }
 
 .helpal {
@@ -102,7 +106,4 @@
 }
 .zona {
   background-color: #fff;
-}
-.springboot {
-  /* background-color: #e0facb; */
 }

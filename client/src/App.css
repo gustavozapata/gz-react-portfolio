@@ -38,11 +38,11 @@ body {
 
 /* TODO: DARK-MODE */
 @media (prefers-color-scheme: dark) {
-  body {
+  /* body {
     color: #eee;
     background: #242424;
   }
   .header {
     color: #fff;
-  }
+  } */
 }

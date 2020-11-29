@@ -62,5 +62,13 @@
         "link": "https://zona.gustavozapata.me/",
         "type": "Personal Project",
         "technologies": ["React", "Node", "Express", "MongoDB"]
+    },
+    {
+        "id": 8,
+        "name": "Web Portfolio v2",
+        "identifier": "gz",
+        "link": "https://gustavozapata.me/",
+        "type": "Personal Project",
+        "technologies": ["PHP", "HTML", "JavaScript", "CSS"]
     }
 ]

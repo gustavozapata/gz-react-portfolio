@@ -1,4 +1,6 @@
 import React from "react";
+import JobCard from '../components/JobCard'
+import schools from '../data/schools.json'
 import "./styles/Education.css";
 
 export default function Education() {
@@ -13,16 +15,15 @@ export default function Education() {
           <span> professional and technical skills.</span>
         </p>
         <main>
-          <div className="institution">
-            <p className="name">Kingston University London</p>
-            <img src={require("../images/ku.png")} alt="KU logo" />
-            <p>2017 - 2021</p>
-          </div>
-          <div className="institution">
-            <p className="name">Kingston College</p>
-            <img src={require("../images/kc.png")} alt="KU logo" />
-            <p>2016 - 2017</p>
-          </div>
+        {schools.map((school) => (
+            <JobCard
+              company={school.institution}
+              role={school.course}
+              period={school.period}
+              image={school.image}
+              description={school.description}
+            />
+        ))}
         </main>
       </div>
     </div>

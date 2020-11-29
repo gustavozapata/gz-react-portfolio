@@ -10,7 +10,7 @@ export default function JobCard(props) {
           src={require(`../images/${props.image}`)}
           alt={`${props.company} logo`}
         />
-        <p className="date">Aug 19 - Jul 20</p>
+        <p className="period">{props.period}</p>
       </div>
       <div className="information">
         <p className="company">{props.company}</p>

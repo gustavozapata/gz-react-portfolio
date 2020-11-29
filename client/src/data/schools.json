@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "institution":"Kingston University London",
+        "period": "2017 - 2021",
+        "course":"Computer Science",
+        "image":"ku.png",
+        "description":"Programming (Java), Advanced Data Modelling, Mobile Application Development, Project Management"
+    },
+    {
+        "id": 2,
+        "institution": "Kingston College",
+        "period": "2016 - 2017",
+        "course": "Acess to HE Computing",
+        "image": "kc.png",
+        "description": "Programming (Visual Basic), Databases, Networking and Maths"
+    }
+]

@@ -18,6 +18,7 @@ export default function Work() {
           {jobs.map((job) => (
             <JobCard
               company={job.company}
+              period={job.period}
               role={job.role}
               image={job.image}
               description={job.description}
