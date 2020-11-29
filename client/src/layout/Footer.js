@@ -9,27 +9,28 @@ export default function Footer() {
     <div className="Footer" style={styling.footer}>
       <main>
         <div>
-          <p style={styling.footerTitle}>VERSIONS</p>
+          <p style={styling.rosado}>VERSIONS</p>
           <ul>
             <li>GZ Version 1.0</li>
             <li>GZ Version 2.0</li>
           </ul>
         </div>
         <div className="extras">
-          <p style={styling.footerTitle}>EXTRAS</p>
+          <p style={styling.rosado}>EXTRAS</p>
           <ul>
             <li>Contact Me</li>
             <li>Visitors</li>
           </ul>
         </div>
         <div>
-          <p style={styling.footerTitle}>PROFILES</p>
+          <p style={styling.rosado}>PROFILES</p>
           <ul>
             <li>
               <a
                 href="https://www.linkedin.com/in/gustavo-zapata/"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={styling.footerLink}
               >
                 <img
                   src={require("../images/linkedin.png")}
@@ -43,6 +44,7 @@ export default function Footer() {
                 href="https://github.com/gustavozapata"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={styling.footerLink}
               >
                 <img src={require("../images/github.png")} alt="GitHub logo" />
                 GitHub
@@ -53,6 +55,7 @@ export default function Footer() {
                 href="https://stackoverflow.com/users/6099890/gustavozapata"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={styling.footerLink}
               >
                 <img
                   src={require("../images/stackoverflow.png")}
@@ -66,6 +69,7 @@ export default function Footer() {
                 href="https://www.hackerrank.com/tavordie?hr_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={styling.footerLink}
               >
                 <img
                   src={require("../images/hackerrank2.png")}
@@ -77,7 +81,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <p style={styling.footerTitle}>TECHNOLOGIES</p>
+          <p style={styling.rosado}>TECHNOLOGIES</p>
           <ul>
             <li>React</li>
             <li>Node</li>

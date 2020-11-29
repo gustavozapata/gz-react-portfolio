@@ -4,7 +4,7 @@ export const DarkStyles = {
     backgroundColor: "#171527",
     color: "#fff",
   },
-  appTitle: {
+  amarillo: {
     // color: "#246BFD",
     color: "#FFCC00",
   },
@@ -12,7 +12,7 @@ export const DarkStyles = {
     // color: "#E532D6",
     color: "#94F0F0",
   },
-  appSubtitle2: {
+  rosado: {
     color: "#C25FFF",
   },
   section: {
@@ -31,22 +31,27 @@ export const DarkStyles = {
     color: "#94F0F0",
   },
   name: {
-    color: "#DEDEDE",
+    // color: "#DEDEDE",
+    color: "#C8C8C8",
+  },
+  blue: {
+    color: "#6194FD",
+    // color: "#645bff",
   },
   description: {
     color: "#fff",
   },
   card: {
-    // backgroundColor: "#262A34",
+    backgroundColor: "#262A34",
     boxShadow: "2px 2px 5px rgb(10, 10, 10)",
     color: "#fff",
   },
   footer: {
     // backgroundColor: "#232323",
     backgroundColor: "#0D0C18",
-    color: "#fff",
+    color: "#C8C8C8",
   },
-  footerTitle: {
-    color: "#94F0F0",
+  footerLink: {
+    color: "#C8C8C8",
   },
 };

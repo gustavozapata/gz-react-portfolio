@@ -9,7 +9,9 @@ export default function ProjectCard({ project }) {
 
   return (
     <div className={`ProjectCard ${identifier}`} style={styling.card}>
-      <p className="title">{name}</p>
+      <p className="title" style={styling.appSubtitle1}>
+        {name}
+      </p>
       <p className="type-project">{type}</p>
       <div className="project-img">
         <img src={require(`../images/${identifier}.png`)} alt="job logo" />
