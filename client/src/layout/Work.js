@@ -10,13 +10,14 @@ export default function Work() {
   return (
     <div className="Work">
       <div className="page">
-        <h1 style={styling.rosado}>Work</h1>
-        <h3 style={styling.aguamarina}>All of my favorite projects</h3>
-        <p style={styling.gris}>
-          From my first Web Development book to a software engineering job in
-          the heart of Silicon Valley, I have gained a wide range of
-          <span> professional and technical skills.</span>
-        </p>
+        <h1 style={styling.morado}>Work</h1>
+        <h3 style={styling.aguamarina}>
+          My most recent professional experience
+        </h3>
+        {/* <p style={styling.gris}>
+          More details can be found on my
+          <span> LinkedIn profile</span>
+        </p> */}
         <main>
           {jobs.map((job) => (
             <JobCard
@@ -26,6 +27,7 @@ export default function Work() {
               role={job.role}
               image={job.image}
               description={job.description}
+              // modules={job.modules}
             />
           ))}
         </main>

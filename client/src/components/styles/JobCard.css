@@ -13,7 +13,7 @@
   /* border: 1px solid orange; */
 }
 .JobCard .logo img {
-  width: 60px;
+  width: 65px;
 }
 .JobCard .logo p {
   text-align: center;
@@ -35,16 +35,22 @@
   color: gray;
 }
 .JobCard .description {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.9em;
   line-height: 2;
+}
+.JobCard .modules {
+  font-weight: 500;
+  font-size: 0.9em;
+  margin: 8px 0;
 }
 .JobCard .role {
   /* color: #000; */
   color: #211e5b;
   font-size: 1.4em;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 5px 0 15px 0;
+  /* margin: 5px 0; */
 }
 .JobCard #SHL {
   width: 80px;

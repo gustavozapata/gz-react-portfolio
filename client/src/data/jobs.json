@@ -5,7 +5,13 @@
         "period": "Aug 19 - Jul 20",
         "role":"Software Engineer",
         "image":"cisco.jpg",
-        "description":"Designed and developed solutions on a web based application used by millions"
+        "description":"Working in the UI team within the IT Security organization. Designing and developing solutions for multiple web applications that deal with identity and privileged access management.",
+        "modules": [
+            "• Working in the UI team within the IT Security organization",
+            "• Designing and developing solutions for multiple web applications that deal with identity and privileged access management",
+            "• Developing and implementing new features to Cisco’s OneID web platform using JavaScript, React and Redux",
+            "• Implementing APIs to internal and external services for security, monitoring, and identity purposes"
+        ]
     },
     {
         "id": 2,
@@ -13,7 +19,7 @@
         "period": "Sep 18 - Feb 19",
         "role": "Fullstack Developer",
         "image": "sunny.png",
-        "description": "Designed and developed a business website for a local business in Richmond"
+        "description": "Designing and developing a fully responsive business website for this organization based in Richmond."
     },
     {
         "id": 3,
@@ -21,14 +27,14 @@
         "period": "May 18 - Sep 18",
         "role":"Web Developer",
         "image":"shl.png",
-        "description":"Designed and developed a web tool for creating interviews for customers like American Express, Lloyds Bank and Mercedes-Benz"
+        "description":"Designing and developing a customised version of a web tool for clients such as American Express, Mercedes-Benz, Nomad Foods, Capitec South Africa, and Societe Generale HK."
     },
     {
         "id": 4,
         "company": "Real Media Now",
-        "period": "Oct 17 - Apr 18",
+        "period": "Dec 17 - Mar 18",
         "role": "Web Designer and Web Developer",
         "image": "realmedia.jpg",
-        "description": "Redesigned and developed a web application during my first year as a Computer Science student via the Broadening Horizons programme at Kingston University"
+        "description": "Redesigning and developing a web application during my first year as a Computer Science student via the Broadening Horizons programme at Kingston University"
     }
 ]

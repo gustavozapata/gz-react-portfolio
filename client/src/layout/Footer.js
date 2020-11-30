@@ -9,17 +9,11 @@ export default function Footer() {
     <div className="Footer" style={styling.footer}>
       <main>
         <div>
-          <p style={styling.rosado}>VERSIONS</p>
+          <p style={styling.rosado}>TECHNOLOGIES</p>
           <ul>
-            <li>GZ Version 1.0</li>
-            <li>GZ Version 2.0</li>
-          </ul>
-        </div>
-        <div className="extras">
-          <p style={styling.rosado}>EXTRAS</p>
-          <ul>
-            <li>Contact Me</li>
-            <li>Visitors</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>MongoDB</li>
           </ul>
         </div>
         <div>
@@ -80,12 +74,18 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
-          <p style={styling.rosado}>TECHNOLOGIES</p>
+        <div className="extras">
+          <p style={styling.rosado}>EXTRAS</p>
           <ul>
-            <li>React</li>
-            <li>Node</li>
-            <li>MongoDB</li>
+            <li>Contact Me</li>
+            <li>Visitors</li>
+          </ul>
+        </div>
+        <div>
+          <p style={styling.rosado}>VERSIONS</p>
+          <ul>
+            <li>GZ Version 1.0</li>
+            <li>GZ Version 2.0</li>
           </ul>
         </div>
       </main>

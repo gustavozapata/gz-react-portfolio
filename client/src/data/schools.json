@@ -5,7 +5,14 @@
         "period": "2017 - 2021",
         "course":"Computer Science",
         "image":"ku.png",
-        "description":"Programming (Java), Advanced Data Modelling, Mobile Application Development, Project Management"
+        "description":"Programming (Java), Advanced Data Modelling, Mobile Application Development, Project Management",
+        "modules": [
+            "• Programming - Java, JavaScript, Python, Processing",
+            "• Advanced Data Modelling",
+            "• Mobile Application Development - React Native, Android, iOS",
+            "• Networking",
+            "• Project Management"
+        ]
     },
     {
         "id": 2,
@@ -13,6 +20,11 @@
         "period": "2016 - 2017",
         "course": "Acess to HE Computing",
         "image": "kc.png",
-        "description": "Programming (Visual Basic), Databases, Networking and Maths"
+        "modules": [
+            "• Programming - Visual Basic (VB)",
+            "• Databases",
+            "• Networking",
+            "• Mathematics"
+        ]
     }
 ]

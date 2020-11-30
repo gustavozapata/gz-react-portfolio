@@ -22,7 +22,7 @@ export const DarkStyles = {
     color: "#7E77FF",
   },
   gris: {
-    color: "#C8C8C8",
+    color: "#CeCeCe",
   },
   blue: {
     color: "#6194FD",

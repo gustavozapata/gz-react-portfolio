@@ -24,9 +24,17 @@ export default function JobCard(props) {
         <p className="role" style={styling.aguamarina}>
           {props.role}
         </p>
-        <p className="description" style={styling.gris}>
-          {props.description}
-        </p>
+        {props.modules ? (
+          props.modules.map((module) => (
+            <p className="modules" style={styling.gris}>
+              {module}
+            </p>
+          ))
+        ) : (
+          <p className="description" style={styling.gris}>
+            {props.description}
+          </p>
+        )}
       </div>
     </div>
   );

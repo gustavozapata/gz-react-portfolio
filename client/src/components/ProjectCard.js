@@ -9,7 +9,7 @@ export default function ProjectCard({ project }) {
 
   return (
     <div className={`ProjectCard ${identifier}`} style={styling.card}>
-      <p className="title" style={styling.aguamarina}>
+      <p className="title" style={styling.blanco}>
         {name}
       </p>
       <p className="type-project">{type}</p>

@@ -13,8 +13,8 @@ export default function Skills() {
         <h1 style={styling.morado}>{content.SKILLS_TITLE}</h1>
         <h3 style={styling.aguamarina}>{content.SKILLS_SUB}</h3>
         <p style={styling.gris}>
-          {content.SKILLS_DESC}
-          <span>{content.SKILLS_HIGHLIGHT}</span>
+          {/* {content.SKILLS_DESC} */}
+          {/* <span> sofware engineering</span> */}
         </p>
         <main>
           <div className="cards">

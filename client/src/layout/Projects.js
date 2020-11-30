@@ -11,12 +11,13 @@ export default function Projects() {
     <div className="Projects" style={styling.section}>
       <div className="page">
         <h1 style={styling.morado}>Projects</h1>
-        <h3 style={styling.aguamarina}>All of my favorite projects</h3>
-        <p style={styling.gris}>
-          From my first Web Development book to a software engineering job in
-          the heart of Silicon Valley, I have gained a wide range of
-          <span> professional and technical skills.</span>
-        </p>
+        <h3 style={styling.aguamarina}>
+          Freelancing, personal projects and hackathons
+        </h3>
+        {/* <p style={styling.gris}>
+          A full list of projects can be found on my
+          <span> GitHub profile</span>
+        </p> */}
         <main>
           {projects.map((project) => (
             <a

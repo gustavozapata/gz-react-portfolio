@@ -13,7 +13,7 @@ export default function SkillCard({ skill }) {
         src={require(`../images/${convertToImageName(name)}.png`)}
         alt={`${name} Icon`}
       />
-      <p style={styling.gris}>{name}</p>
+      <p style={styling.blanco}>{name}</p>
       <p className="experience">{type}</p>
     </div>
   );
