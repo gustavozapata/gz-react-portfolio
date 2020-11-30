@@ -10,9 +10,9 @@ export default function Education() {
   return (
     <div className="Education">
       <div className="page">
-        <h1 style={styling.title}>{content.EDUCATION_TITLE}</h1>
-        <h3 style={styling.subtitle}>All of my favorite projects</h3>
-        <p>
+        <h1 style={styling.rosado}>{content.EDUCATION_TITLE}</h1>
+        <h3 style={styling.aguamarina}>All of my favorite projects</h3>
+        <p style={styling.gris}>
           From my first Web Development book to a software engineering job in
           the heart of Silicon Valley, I have gained a wide range of
           <span> professional and technical skills.</span>

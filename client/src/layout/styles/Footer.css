@@ -1,7 +1,7 @@
 .Footer {
   /* background-color: #211e5b;
-  background-color: #080635;
-  background-color: #f7f7f7; */
+  background-color: #080635;*/
+  background-color: #f7f7f7;
   text-align: center;
   padding: 1px;
   font-size: 0.8em;
@@ -22,6 +22,7 @@
 }
 .Footer main div p {
   font-weight: bold;
+  color: #211e5b;
 }
 .Footer main ul {
   padding: 0;
@@ -32,8 +33,7 @@
 }
 .Footer main ul li a {
   text-decoration: none;
-  /* color: #000; */
-  /* color: #d3d3d3; */
+  color: #000;
 }
 .Footer main ul li a:hover {
   text-decoration: underline;

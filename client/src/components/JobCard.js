@@ -13,7 +13,7 @@ export default function JobCard(props) {
           src={require(`../images/${props.image}`)}
           alt={`${props.company} logo`}
         />
-        <p className="period" style={styling.name}>
+        <p className="period" style={styling.gris}>
           {props.period}
         </p>
       </div>
@@ -21,10 +21,10 @@ export default function JobCard(props) {
         <p className="company" style={styling.amarillo}>
           {props.company}
         </p>
-        <p className="role" style={styling.appSubtitle1}>
+        <p className="role" style={styling.aguamarina}>
           {props.role}
         </p>
-        <p className="description" style={styling.name}>
+        <p className="description" style={styling.gris}>
           {props.description}
         </p>
       </div>

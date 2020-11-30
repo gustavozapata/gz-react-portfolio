@@ -15,7 +15,7 @@ function App() {
     <div className="App" style={styling.app}>
       <header className="header">
         <div className="header-top">
-          <p style={styling.appSubtitle1}>Gustavo Zapata</p>
+          <p style={styling.aguamarina}>Gustavo Zapata</p>
           <div style={{ marginTop: 20 }}>
             <Settings />
           </div>

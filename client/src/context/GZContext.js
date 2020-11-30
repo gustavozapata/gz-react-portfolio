@@ -7,22 +7,28 @@ import { DarkStyles } from "../content/DarkStyles";
 const GZContext = React.createContext({});
 
 export const GZProvider = ({ children }) => {
-  const [isDark, setIsDark] = useState(
-    localStorage.getItem("theme") === "dark" ? true : false
-  );
-  const [isEnglish, setIsEnglish] = useState(
-    localStorage.getItem("language") === "English" ? true : false
-  );
+  const [isDark, setIsDark] = useState(false);
+  const [isEnglish, setIsEnglish] = useState(true);
   const [content, setContent] = useState({});
   const [styling, setStyling] = useState({});
 
   useEffect(() => {
-    if (isDark === null) {
+    if (
+      window.matchMedia("(prefers-color-scheme: dark)").matches &&
+      !localStorage.getItem("dark-chose")
+    ) {
+      toggleTheme("dark");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (localStorage.getItem("theme") === null) {
       toggleTheme("light");
     } else {
       toggleTheme(localStorage.getItem("theme"));
     }
-    if (isEnglish === null) {
+
+    if (localStorage.getItem("language") === null) {
       toggleLanguage("English");
     } else {
       toggleLanguage(localStorage.getItem("language"));
@@ -33,6 +39,9 @@ export const GZProvider = ({ children }) => {
     if (mode === "light") {
       setStyling(LightStyles);
       setIsDark(false);
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        localStorage.setItem("dark-chose", "yes");
+      }
     } else {
       setStyling(DarkStyles);
       setIsDark(true);
@@ -52,21 +61,21 @@ export const GZProvider = ({ children }) => {
   };
 
   const switchTheme = () => {
-    setIsDark(!isDark);
     if (isDark) {
       toggleTheme("light");
     } else {
       toggleTheme("dark");
     }
+    setIsDark(!isDark);
   };
 
   const switchLanguage = () => {
-    setIsEnglish(!isEnglish);
-    if (!isEnglish) {
-      toggleLanguage("English");
-    } else {
+    if (isEnglish) {
       toggleLanguage("Spanish");
+    } else {
+      toggleLanguage("English");
     }
+    setIsEnglish(!isEnglish);
   };
 
   return (

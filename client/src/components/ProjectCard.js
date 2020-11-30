@@ -9,7 +9,7 @@ export default function ProjectCard({ project }) {
 
   return (
     <div className={`ProjectCard ${identifier}`} style={styling.card}>
-      <p className="title" style={styling.appSubtitle1}>
+      <p className="title" style={styling.aguamarina}>
         {name}
       </p>
       <p className="type-project">{type}</p>
@@ -23,7 +23,7 @@ export default function ProjectCard({ project }) {
               src={require(`../images/${convertToImageName(tech)}.png`)}
               alt={`${tech} Icon`}
             />
-            <p>{tech}</p>
+            <p style={styling.blanco}>{tech}</p>
           </div>
         ))}
       </div>

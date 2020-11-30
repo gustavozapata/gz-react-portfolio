@@ -5,13 +5,6 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
-.App main {
-  /* width: 92%; */
-  /* max-width: 1300px; */
-  /* margin: 150px auto; */
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -38,12 +31,6 @@ body {
 }
 
 /* TODO: DARK-MODE */
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #eee;
-    background: #242424;
-  }
-  .header {
-    color: #fff;
-  }
-}
+/* @media (prefers-color-scheme: dark) {
+  
+} */

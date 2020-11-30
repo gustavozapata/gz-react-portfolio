@@ -8,12 +8,12 @@ export default function SkillCard({ skill }) {
 
   const { name, type } = skill;
   return (
-    <div className="SkillCard" style={styling.name}>
+    <div className="SkillCard" style={styling.gris}>
       <img
         src={require(`../images/${convertToImageName(name)}.png`)}
         alt={`${name} Icon`}
       />
-      <p>{name}</p>
+      <p style={styling.gris}>{name}</p>
       <p className="experience">{type}</p>
     </div>
   );
