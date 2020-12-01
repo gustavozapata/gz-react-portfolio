@@ -1,18 +1,20 @@
 import React, { useContext } from "react";
-import { convertToImageName } from "../utils/utils";
+// import { convertToImageName } from "../utils/utils";
 import GZContext from "../context/GZContext";
 import "./styles/SkillCard.css";
 
 export default function SkillCard({ skill }) {
   const { styling } = useContext(GZContext);
 
+  const addImage = (tech) => {
+    tech = tech.toLowerCase().replace(/\s/g, "");
+    return require(`../images/${tech}.png`);
+  };
+
   const { name, type } = skill;
   return (
     <div className="SkillCard" style={styling.gris}>
-      <img
-        src={require(`../images/${convertToImageName(name)}.png`)}
-        alt={`${name} Icon`}
-      />
+      <img src={addImage(name)} alt={`${name} Icon`} />
       <p style={styling.blanco}>{name}</p>
       <p className="experience">{type}</p>
     </div>
