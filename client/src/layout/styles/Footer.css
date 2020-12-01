@@ -49,3 +49,11 @@
 .Footer .extras ul li {
   cursor: pointer;
 }
+.Footer .octicon {
+  fill: #000;
+  margin: 0 5px 0 0;
+}
+.ghsvg {
+  width: 12px;
+  vertical-align: middle;
+}

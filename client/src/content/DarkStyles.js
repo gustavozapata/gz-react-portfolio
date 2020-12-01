@@ -30,6 +30,9 @@ export const DarkStyles = {
   blanco: {
     color: "#fff",
   },
+  svgblanco: {
+    fill: "#fff",
+  },
   description: {
     color: "#fff",
   },

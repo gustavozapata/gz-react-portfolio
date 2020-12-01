@@ -15,7 +15,7 @@ export const GZProvider = ({ children }) => {
   useEffect(() => {
     if (
       window.matchMedia("(prefers-color-scheme: dark)").matches &&
-      !localStorage.getItem("dark-chose")
+      !sessionStorage.getItem("dark-chose")
     ) {
       toggleTheme("dark");
     }
@@ -40,7 +40,7 @@ export const GZProvider = ({ children }) => {
       setStyling(LightStyles);
       setIsDark(false);
       if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        localStorage.setItem("dark-chose", "yes");
+        sessionStorage.setItem("dark-chose", "yes");
       }
     } else {
       setStyling(DarkStyles);

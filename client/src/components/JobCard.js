@@ -25,8 +25,8 @@ export default function JobCard(props) {
           {props.role}
         </p>
         {props.modules ? (
-          props.modules.map((module) => (
-            <p className="modules" style={styling.gris}>
+          props.modules.map((module, id) => (
+            <p key={id} className="modules" style={styling.gris}>
               {module}
             </p>
           ))
