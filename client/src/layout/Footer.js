@@ -9,7 +9,7 @@ export default function Footer() {
     <div className="Footer" style={styling.footer}>
       <main>
         <div>
-          <p style={styling.rosado}>TECHNOLOGIES</p>
+          <p style={styling.morado}>TECHNOLOGIES</p>
           <ul>
             <li>React</li>
             <li>Node</li>
@@ -17,7 +17,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <p style={styling.rosado}>PROFILES</p>
+          <p style={styling.morado}>PROFILES</p>
           <ul>
             <li>
               <a
@@ -88,14 +88,14 @@ export default function Footer() {
           </ul>
         </div>
         <div className="extras">
-          <p style={styling.rosado}>EXTRAS</p>
+          <p style={styling.morado}>EXTRAS</p>
           <ul>
             <li>Contact Me</li>
             <li>Visitors</li>
           </ul>
         </div>
         <div>
-          <p style={styling.rosado}>VERSIONS</p>
+          <p style={styling.morado}>VERSIONS</p>
           <ul>
             <li>GZ Version 1.0</li>
             <li>GZ Version 2.0</li>

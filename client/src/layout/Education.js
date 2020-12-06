@@ -11,7 +11,7 @@ export default function Education() {
     <div className="Education">
       <div className="page">
         <h1 style={styling.morado}>{content.EDUCATION_TITLE}</h1>
-        <h3 style={styling.aguamarina}>College and University Education</h3>
+        <h3 style={styling.gris}>College and University Education</h3>
         {/* <p style={styling.gris}>
           I gained technical as well as professional skills during these 5 years
           in education

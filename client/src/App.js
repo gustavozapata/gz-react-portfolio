@@ -20,7 +20,7 @@ function App() {
             <Settings />
           </div>
         </div>
-        <h1 style={styling.amarillo}>{content.TITLE}</h1>
+        <h1 style={styling.gris}>{content.TITLE}</h1>
         <h3 style={styling.rosado}>{content.SUB_TITLE}</h3>
       </header>
       <main>

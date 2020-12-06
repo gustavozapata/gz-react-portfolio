@@ -18,10 +18,10 @@ export default function JobCard(props) {
         </p>
       </div>
       <div className="information">
-        <p className="company" style={styling.amarillo}>
+        <p className="company" style={styling.aguamarina}>
           {props.company}
         </p>
-        <p className="role" style={styling.aguamarina}>
+        <p className="role" style={styling.rosado}>
           {props.role}
         </p>
         {props.modules ? (

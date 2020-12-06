@@ -21,6 +21,9 @@ export const DarkStyles = {
   morado: {
     color: "#7E77FF",
   },
+  moradoClaro: {
+    color: "#BDBBD2",
+  },
   gris: {
     color: "#CeCeCe",
   },

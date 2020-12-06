@@ -11,7 +11,7 @@ export default function Projects() {
     <div className="Projects" style={styling.section}>
       <div className="page">
         <h1 style={styling.morado}>Projects</h1>
-        <h3 style={styling.aguamarina}>
+        <h3 style={styling.gris}>
           Freelancing, personal projects and hackathons
         </h3>
         {/* <p style={styling.gris}>
