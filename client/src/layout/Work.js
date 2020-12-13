@@ -12,10 +12,6 @@ export default function Work() {
       <div className="page">
         <h1 style={styling.morado}>Work</h1>
         <h3 style={styling.gris}>My most recent professional experience</h3>
-        {/* <p style={styling.gris}>
-          More details can be found on my
-          <span> LinkedIn profile</span>
-        </p> */}
         <main>
           {jobs.map((job) => (
             <JobCard

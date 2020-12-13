@@ -23,7 +23,7 @@ export default function Settings() {
     <div className="Settings">
       <div className="toggleContainer">
         <Toggle setting="language" isOn={isEnglish} setIsOn={switchLanguage} />
-        <p style={styling.aguamarina}>EN</p>
+        <p style={styling.gris}>EN</p>
       </div>
       <div className="toggleContainer">
         <Toggle setting="theme" isOn={isDark} setIsOn={switchTheme} />

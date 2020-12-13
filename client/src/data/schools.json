@@ -3,15 +3,14 @@
         "id": 1,
         "institution":"Kingston University London",
         "period": "2017 - 2021",
-        "course":"Computer Science",
+        "course":"Computer Science BSc",
         "image":"ku.png",
         "description":"Programming (Java), Advanced Data Modelling, Mobile Application Development, Project Management",
         "modules": [
             "• Programming - Java, JavaScript, Python, Processing",
-            "• Advanced Data Modelling",
-            "• Mobile Application Development - React Native, Android, iOS",
-            "• Networking",
-            "• Project Management"
+            "• Mobile Application Development - React Native, Android",
+            "• Data Modelling, Computer Architecture, Networking",
+            "• Business Analysis, Project Management"
         ]
     },
     {
@@ -20,11 +19,12 @@
         "period": "2016 - 2017",
         "course": "Acess to HE Computing",
         "image": "kc.png",
+        "description": "Distinction: Algebra, Arithmetic, Further Arithmetic, Computer Architecture and Operation, HTML and CSS Basics, Introduction to Router and TC IP, System Analysis, Visual Programming. Merit: Array and Data Types, Computer Hardware, Practical Relational Database Development.",
         "modules": [
-            "• Programming - Visual Basic (VB)",
-            "• Databases",
-            "• Networking",
-            "• Mathematics"
+            "• Programming - JavaScript, Visual Basic (VB)",
+            "• Mathematics - Arithmetic, Further Arithmetic, Algebra",
+            "• Computer Architecture, Networking",
+            "• Relational Databases, System Analysis"
         ]
     }
 ]
