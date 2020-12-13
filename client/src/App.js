@@ -15,13 +15,13 @@ function App() {
     <div className="App" style={styling.app}>
       <header className="header">
         <div className="header-top">
-          <p style={styling.aguamarina}>Gustavo Zapata</p>
+          <p style={styling.morado}>Gustavo Zapata</p>
           <div style={{ marginTop: 20 }}>
             <Settings />
           </div>
         </div>
-        <h1 style={styling.morado}>{content.TITLE}</h1>
-        <h3 style={styling.rosado}>{content.SUB_TITLE}</h3>
+        <h1 style={styling.aguamarina}>{content.TITLE}</h1>
+        <h3 style={styling.amarillo}>{content.SUB_TITLE}</h3>
       </header>
       <main>
         <Skills />
