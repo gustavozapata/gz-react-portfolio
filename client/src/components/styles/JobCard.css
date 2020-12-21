@@ -1,8 +1,7 @@
 .JobCard {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  /* align-items: center; */
+  justify-content: space-between;
   width: 80%;
   max-width: 850px;
   margin: 90px auto;
@@ -19,7 +18,7 @@
   margin: 25px auto;
 }
 .JobCard .information {
-  flex-basis: 600px;
+  flex-basis: 70%;
 }
 .JobCard .company {
   font-size: 1em;
@@ -49,4 +48,27 @@
 }
 .JobCard #SHL {
   width: 80px;
+}
+
+@media only screen and (max-width: 700px) {
+  .JobCard {
+    display: block;
+    width: 95%;
+  }
+  .JobCard .logo {
+    text-align: left;
+    margin-bottom: -70px;
+  }
+  .JobCard .company,
+  .JobCard .role {
+    margin-left: 100px;
+  }
+  .JobCard .description,
+  .JobCard .modules:first-child {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .JobCard .period {
+    display: none;
+  }
 }

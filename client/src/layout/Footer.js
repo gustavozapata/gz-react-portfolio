@@ -9,11 +9,10 @@ export default function Footer() {
     <div className="Footer" style={styling.footer}>
       <main>
         <div>
-          <p style={styling.morado}>TECHNOLOGIES</p>
+          <p style={styling.morado}>BUILT WITH</p>
           <ul>
+            <li>JavaScript</li>
             <li>React</li>
-            <li>Node</li>
-            <li>MongoDB</li>
           </ul>
         </div>
         <div>
@@ -86,13 +85,13 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="extras">
+        {/* <div className="extras">
           <p style={styling.morado}>EXTRAS</p>
           <ul>
             <li>Contact Me</li>
             <li>Visitors</li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <p style={styling.morado}>VERSIONS</p>
           <ul>
