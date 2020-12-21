@@ -16,6 +16,7 @@ body {
 }
 .header-top {
   display: flex;
+  margin-top: 10px;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,7 +26,6 @@ body {
 .header h1 {
   text-align: center;
   font-size: 2.5em;
-  /* font-weight: 500; */
 }
 .header h3 {
   text-align: center;

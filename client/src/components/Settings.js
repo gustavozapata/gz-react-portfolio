@@ -5,11 +5,11 @@ import "./styles/Settings.css";
 
 export default function Settings() {
   const {
-    isEnglish,
+    // isEnglish,
+    // switchLanguage,
+    // styling,
     isDark,
-    switchLanguage,
     switchTheme,
-    styling,
   } = useContext(GZContext);
 
   const getImage = () => {
@@ -21,10 +21,10 @@ export default function Settings() {
 
   return (
     <div className="Settings">
-      <div className="toggleContainer">
+      {/* <div className="toggleContainer">
         <Toggle setting="language" isOn={isEnglish} setIsOn={switchLanguage} />
         <p style={styling.aguamarina}>EN</p>
-      </div>
+      </div> */}
       <div className="toggleContainer">
         <Toggle setting="theme" isOn={isDark} setIsOn={switchTheme} />
         <img src={getImage()} alt="Moon icon" />

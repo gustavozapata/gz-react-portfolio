@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-// import { convertToImageName } from "../utils/utils";
 import GZContext from "../context/GZContext";
 import "./styles/ProjectCard.css";
 

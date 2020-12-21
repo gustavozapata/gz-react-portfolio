@@ -40,7 +40,6 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 style={styling.footerLink}
               >
-                {/* <img src={require("../images/github.png")} alt="GitHub logo" /> */}
                 <span className="octicon" style={styling.svgblanco}>
                   <svg
                     viewBox="0 0 16 16"
@@ -97,8 +96,26 @@ export default function Footer() {
         <div>
           <p style={styling.morado}>VERSIONS</p>
           <ul>
-            <li>GZ Version 1.0</li>
-            <li>GZ Version 2.0</li>
+            <li>
+              <a
+                href="https://gustavozapata.me/GZ1"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={styling.footerLink}
+              >
+                GZ Version 1.0
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://gustavozapata.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={styling.footerLink}
+              >
+                GZ Version 2.0
+              </a>
+            </li>
           </ul>
         </div>
       </main>

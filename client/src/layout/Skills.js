@@ -12,10 +12,7 @@ export default function Skills() {
       <div className="page">
         <h1 style={styling.morado}>{content.SKILLS_TITLE}</h1>
         <h3 style={styling.gris}>{content.SKILLS_SUB}</h3>
-        <p style={styling.gris}>
-          {/* {content.SKILLS_DESC} */}
-          {/* <span> sofware engineering</span> */}
-        </p>
+        <p style={styling.gris}></p>
         <main>
           <div className="cards">
             {skills.map((skill, i) => (

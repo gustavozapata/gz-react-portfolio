@@ -16,11 +16,11 @@ function App() {
       <header className="header">
         <div className="header-top">
           <p style={styling.aguamarina}>Gustavo Zapata</p>
-          <div style={{ marginTop: 20 }}>
+          <div>
             <Settings />
           </div>
         </div>
-        <h1 style={styling.gris}>{content.TITLE}</h1>
+        <h1 style={styling.amarillo}>{content.TITLE}</h1>
         <h3 style={styling.rosado}>{content.SUB_TITLE}</h3>
       </header>
       <main>

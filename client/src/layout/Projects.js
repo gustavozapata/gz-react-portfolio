@@ -14,10 +14,6 @@ export default function Projects() {
         <h3 style={styling.gris}>
           Freelancing, personal projects and hackathons
         </h3>
-        {/* <p style={styling.gris}>
-          A full list of projects can be found on my
-          <span> GitHub profile</span>
-        </p> */}
         <main>
           {projects.map((project) => (
             <a
