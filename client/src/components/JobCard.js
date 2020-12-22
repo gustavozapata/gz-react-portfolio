@@ -6,7 +6,7 @@ export default function JobCard(props) {
   const { styling } = useContext(GZContext);
 
   return (
-    <div className="JobCard">
+    <div className={`JobCard ${props.modules ? "EducationCard" : ""}`}>
       <div className="logo">
         <img
           id={props.company}
