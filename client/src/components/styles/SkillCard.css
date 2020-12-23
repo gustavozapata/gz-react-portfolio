@@ -19,3 +19,32 @@
   color: rgb(143, 143, 143);
   font-weight: 500;
 }
+@media only screen and (max-width: 804px) {
+  .SkillCard {
+    margin: 40px 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SkillCard {
+    text-align: center;
+    width: 120px;
+    margin: 40px 50px;
+  }
+  .SkillCard img {
+    display: block;
+    width: 60px;
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .SkillCard {
+    margin: 40px 20px;
+  }
+  .SkillCard img {
+    display: block;
+    width: 50px;
+    margin: 0 auto 20px auto;
+  }
+}

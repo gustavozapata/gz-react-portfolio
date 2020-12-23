@@ -100,3 +100,16 @@
 .zanto {
   background-color: #f5cf36;
 }
+
+@media only screen and (max-width: 400px) {
+  .ProjectCard {
+    width: 80%;
+    margin: 50px auto;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .ProjectCard {
+    max-height: 350px;
+  }
+}
