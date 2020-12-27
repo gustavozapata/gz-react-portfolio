@@ -19,7 +19,7 @@
   color: rgb(143, 143, 143);
   font-weight: 500;
 }
-@media only screen and (max-width: 804px) {
+@media only screen and (max-width: 822px) {
   .SkillCard {
     margin: 40px 50px;
   }

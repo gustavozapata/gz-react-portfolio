@@ -26,37 +26,47 @@
     },
     {
         "id": 6,
-        "name": "Java",
+        "name": "Android",
         "type": "Educational Experience"
     },
     {
         "id": 7,
+        "name": "Java",
+        "type": "Educational Experience"
+    },
+    {
+        "id": 8,
         "name": "PHP",
         "type": "Professional Experience"
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "MySQL",
         "type": "Professional Experience"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Python",
         "type": "Educational Experience"
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "HTML",
         "type": "Professional Experience"
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "CSS",
         "type": "Professional Experience"
     },
     {
-        "id": 12,
+        "id": 13,
         "name": "Git",
+        "type": "Professional Experience"
+    },
+    {
+        "id": 14,
+        "name": "UX",
         "type": "Professional Experience"
     }
 ]
