@@ -90,3 +90,14 @@
   -webkit-transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
   transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
 }
+
+@media only screen and (max-width: 450px) {
+  .Toggle input.mobileToggle + label:before {
+    height: 10px;
+  }
+  .Toggle input.mobileToggle + label:after {
+    height: 14px;
+    width: 14px;
+    top: -2px;
+  }
+}

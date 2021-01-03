@@ -11,8 +11,21 @@ export default function Footer() {
         <div>
           <p style={styling.morado}>BUILT WITH</p>
           <ul>
-            <li>JavaScript</li>
-            <li>React</li>
+            <li>
+              <img src={require("../images/javascript.png")} alt="JS logo" />
+              JavaScript
+            </li>
+            <li>
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={styling.footerLink}
+              >
+                <img src={require("../images/react.png")} alt="React logo" />
+                React
+              </a>
+            </li>
           </ul>
         </div>
         <div>
@@ -119,7 +132,7 @@ export default function Footer() {
         </div>
       </main>
       <div className="bottom">
-        <p>&copy; GZ 2020</p>
+        <p>&copy; GZ {new Date().getFullYear()}</p>
       </div>
     </div>
   );
