@@ -1,6 +1,13 @@
 [
     {
         "id": 1,
+        "name": "TwentyFiveStore",
+        "identifier": "twentyfivestore",
+        "type": "Personal Project",
+        "technologies": ["Node", "JavaScript", "Redux", "Contentful"]
+    },
+    {
+        "id": 2,
         "name": "API with Spring Boot",
         "identifier": "springboot",
         "link": "https://gz-spring-boot.herokuapp.com/",
@@ -8,7 +15,7 @@
         "technologies": ["Java", "JavaScript", "Spring Boot", "jQuery"]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "PayPal Hackathon 2019",
         "identifier": "helpal",
         "link": "https://mighty-reef-20228.herokuapp.com/",
@@ -16,7 +23,7 @@
         "technologies": ["JavaScript", "React", "Python", "CSS"]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Sunny Eco",
         "identifier": "sunny",
         "link": "https://gustavozapata.me/GZ1/work/sunny/",
@@ -24,7 +31,7 @@
         "technologies": ["PHP", "JavaScript", "MySQL", "jQuery"]
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Trade Ledger",
         "identifier": "tradeledger",
         "link": "https://gustavozapata.me/work/tradeledger/",
@@ -32,7 +39,7 @@
         "technologies": ["JavaScript", "HTML", "jQuery", "CSS"]
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Real Media Now",
         "identifier": "realmedia",
         "link": "https://realmedianow.com/",
@@ -40,7 +47,7 @@
         "technologies": ["PHP", "HTML", "JavaScript", "CSS"]
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Zanto",
         "identifier": "zanto",
         "link": "https://gustavozapata.github.io/Zanto/",
@@ -48,7 +55,7 @@
         "technologies": ["JavaScript", "HTML", "jQuery", "CSS"]
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Kapp",
         "identifier": "kapp",
         "link": "https://github.com/gustavozapata/kapp",
@@ -56,7 +63,7 @@
         "technologies": ["Electron", "HTML", "JavaScript", "CSS"]
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Zona Social Media",
         "identifier": "zona",
         "link": "https://zona.gustavozapata.me/",
@@ -64,7 +71,7 @@
         "technologies": ["React", "Node", "Express", "MongoDB"]
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Web Portfolio v2",
         "identifier": "gz",
         "link": "https://gustavozapata.me/",

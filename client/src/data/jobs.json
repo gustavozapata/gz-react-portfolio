@@ -1,11 +1,25 @@
 [
     {
         "id": 1,
+        "company":"Ascential",
+        "period": "Apr 12 - Present",
+        "role":"Product Developer",
+        "image":"ascential.png",
+        "description":"Developing digital solutions for multiple live events. Building UI components using React and React styled-components. Setting up and customising new platforms and implementing CI/CD. Deploying multiple services and applications to multiple environments",
+        "modules": [
+            "• Developing digital solutions for multiple live events",
+            "• Building UI components using React and React styled-components",
+            "• Setting up and customising new platforms and implementing CI/CD",
+            "• Deploying multiple services and applications to multiple environments"
+        ]
+    },
+    {
+        "id": 2,
         "company":"Cisco",
         "period": "Aug 19 - Jul 20",
         "role":"Software Engineer",
         "image":"cisco.jpg",
-        "description":"Working in the UI team within the IT Security organization. Designing and developing solutions for multiple web applications that deal with identity and privileged access management.",
+        "description":"Working in the UI team within the IT Security organization. Designing and developing solutions for multiple web applications that deal with identity and privileged access management",
         "modules": [
             "• Working in the UI team within the IT Security organization",
             "• Designing and developing solutions for multiple web applications that deal with identity and privileged access management",
@@ -14,23 +28,23 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "company": "Sunny Eco",
         "period": "Sep 18 - Feb 19",
         "role": "Fullstack Developer",
         "image": "sunny.png",
-        "description": "Designing and developing a fully responsive business website"
+        "description": "Designing and developing a fully responsive web application with vanilla JS, jQuery and PHP"
     },
     {
-        "id": 3,
+        "id": 4,
         "company":"SHL",
         "period": "May 18 - Sep 18",
         "role":"Web Developer",
         "image":"shl.png",
-        "description":"Designing and developing a customised version of a web tool for clients such as American Express, Mercedes-Benz, Nomad Foods, Capitec South Africa, and Societe Generale HK."
+        "description":"Designing and developing a customised version of a web tool for clients such as American Express, Mercedes-Benz, Nomad Foods, Capitec South Africa, and Societe Generale HK"
     },
     {
-        "id": 4,
+        "id": 5,
         "company": "Real Media Now",
         "period": "Dec 17 - Mar 18",
         "role": "Web Designer and Web Developer",
