@@ -38,7 +38,8 @@
 .JobCard .modules {
   font-weight: 500;
   font-size: 0.9em;
-  margin: 8px 0;
+  margin: 8px 0px;
+  line-height: 1.8;
 }
 .JobCard .role {
   color: #211e5b;

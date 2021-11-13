@@ -8,3 +8,10 @@
 .toggleContainer p {
   font-size: 0.6em;
 }
+
+@media only screen and (max-width: 450px) {
+  .toggleContainer img {
+    width: 25px;
+    margin-top: 4px;
+  }
+}
