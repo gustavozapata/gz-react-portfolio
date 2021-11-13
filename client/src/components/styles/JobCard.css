@@ -29,6 +29,7 @@
 .JobCard .period {
   font-size: 0.8em;
   color: gray;
+  width: 130px;
 }
 .JobCard .description {
   font-weight: 500;

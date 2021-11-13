@@ -2,10 +2,10 @@
     {
         "id": 1,
         "company":"Ascential",
-        "period": "Apr 12 - Present",
+        "period": "Apr 2021 - Present",
         "role":"Product Developer",
         "image":"ascential.png",
-        "description":"Developing digital solutions for multiple live events. Building UI components using React and React styled-components. Setting up and customising new platforms and implementing CI/CD. Deploying multiple services and applications to multiple environments",
+        "description":"Developing digital solutions for multiple live events. Building UI components using React and React styled-components. Setting up and customising new platforms and implementing CI/CD",
         "modules": [
             "• Developing digital solutions for multiple live events",
             "• Building UI components using React and React styled-components",
@@ -16,7 +16,7 @@
     {
         "id": 2,
         "company":"Cisco",
-        "period": "Aug 19 - Jul 20",
+        "period": "Aug 2019 - Jul 2020",
         "role":"Software Engineer",
         "image":"cisco.jpg",
         "description":"Working in the UI team within the IT Security organization. Designing and developing solutions for multiple web applications that deal with identity and privileged access management",
@@ -30,7 +30,7 @@
     {
         "id": 3,
         "company": "Sunny Eco",
-        "period": "Sep 18 - Feb 19",
+        "period": "Sep 2018 - Feb 2019",
         "role": "Fullstack Developer",
         "image": "sunny.png",
         "description": "Designing and developing a fully responsive web application with vanilla JS, jQuery and PHP"
@@ -38,7 +38,7 @@
     {
         "id": 4,
         "company":"SHL",
-        "period": "May 18 - Sep 18",
+        "period": "May 2018 - Sep 2018",
         "role":"Web Developer",
         "image":"shl.png",
         "description":"Designing and developing a customised version of a web tool for clients such as American Express, Mercedes-Benz, Nomad Foods, Capitec South Africa, and Societe Generale HK"
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "company": "Real Media Now",
-        "period": "Dec 17 - Mar 18",
+        "period": "Dec 2017 - Mar 2018",
         "role": "Web Designer and Web Developer",
         "image": "realmedia.jpg",
         "description": "Redesigning and developing a web application during my first year as a Computer Science student via the Broadening Horizons programme at Kingston University"
