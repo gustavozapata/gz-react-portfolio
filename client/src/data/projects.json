@@ -3,6 +3,7 @@
         "id": 1,
         "name": "TwentyFiveStore",
         "identifier": "twentyfivestore",
+        "link": "https://wip.twentyfivestore.com/",
         "type": "Personal Project",
         "technologies": ["Node", "JavaScript", "Redux", "Contentful"]
     },
