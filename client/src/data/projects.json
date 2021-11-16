@@ -26,7 +26,7 @@
         "id": 4,
         "name": "Sunny Eco",
         "identifier": "sunny",
-        "link": "https://gustavozapata.me/GZ1/work/sunny/",
+        "link": "https://gustavozapata.me/projects/sunny/",
         "type": "Professional Project",
         "technologies": ["PHP", "JavaScript", "MySQL", "jQuery"]
     },
@@ -34,7 +34,7 @@
         "id": 5,
         "name": "Trade Ledger",
         "identifier": "tradeledger",
-        "link": "https://gustavozapata.me/work/tradeledger/",
+        "link": "https://gustavozapata.me/projects/tradeledger/",
         "type": "Hackathon",
         "technologies": ["JavaScript", "HTML", "jQuery", "CSS"]
     },
@@ -74,7 +74,7 @@
         "id": 10,
         "name": "Web Portfolio v2",
         "identifier": "gz",
-        "link": "https://gustavozapata.me/",
+        "link": "https://gustavozapata.me/versions/2.0",
         "type": "Personal Project",
         "technologies": ["PHP", "HTML", "JavaScript", "CSS"]
     }
