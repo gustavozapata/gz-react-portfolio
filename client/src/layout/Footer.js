@@ -107,6 +107,7 @@ export default function Footer() {
         </div> */}
         <div>
           <p style={styling.morado}>VERSIONS</p>
+          {/* Testing absolute and relative urls for the versions */}
           <ul>
             <li>
               <a
