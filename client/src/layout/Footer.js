@@ -120,7 +120,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://gustavozapata.me/versions/2.0"
+                href="/versions/2.0"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={styling.footerLink}
