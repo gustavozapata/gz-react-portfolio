@@ -4,7 +4,7 @@ import "./styles/ProjectCard.css";
 
 export default function ProjectCard({ project }) {
   const { styling } = useContext(GZContext);
-  const { name, type, technologies, identifier } = project;
+  const { name, type, technologies, identifier, image } = project;
 
   const addImage = (tech) => {
     tech = tech.toLowerCase().replace(/\s/g, "");
@@ -13,12 +13,14 @@ export default function ProjectCard({ project }) {
 
   return (
     <div className={`ProjectCard ${identifier}`} style={styling.card}>
-      <p className="title" style={styling.blanco}>
-        {name}
-      </p>
-      <p className="type-project">{type}</p>
+      <div>
+        <p className="title" style={styling.blanco}>
+          {name}
+        </p>
+        <p className="type-project">{type}</p>
+      </div>
       <div className="project-img">
-        <img src={require(`../images/${identifier}.png`)} alt="job logo" />
+        <img src={image} alt="project logo" />
       </div>
       <div className="project-techs">
         {technologies.map((tech, i) => (

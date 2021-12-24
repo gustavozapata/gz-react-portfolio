@@ -1,11 +1,20 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import projects from "../data/projects.json";
 import GZContext from "../context/GZContext";
+import { getAllContentfulData } from "../services";
 import "./styles/Projects.css";
 
 export default function Projects() {
+  const [projects, setProjects] = useState([]);
   const { styling } = useContext(GZContext);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await getAllContentfulData();
+      setProjects(result);
+    };
+    fetchData();
+  }, []);
 
   return (
     <div className="Projects" style={styling.section}>
