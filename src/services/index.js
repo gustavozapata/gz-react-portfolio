@@ -46,6 +46,5 @@ const parseContentfulItems = (items) => {
         image: item.image.url,
       };
     });
-  console.log(parsedItems);
   return parsedItems;
 };
