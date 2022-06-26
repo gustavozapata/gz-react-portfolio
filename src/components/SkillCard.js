@@ -13,7 +13,10 @@ export default function SkillCard({ skill }) {
   const { name, type } = skill;
   return (
     <div className="SkillCard" style={styling.gris}>
-      <img src={addImage(name)} alt={`${name} Icon`} />
+      <img
+        src={skill.image ? skill.image : addImage(name)}
+        alt={`${name} Icon`}
+      />
       <p style={styling.blanco}>{name}</p>
       <p className="experience">{type}</p>
     </div>

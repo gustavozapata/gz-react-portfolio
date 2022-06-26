@@ -2,76 +2,76 @@
     {
         "id": 1,
         "name": "JavaScript",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 2,
         "name": "React",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 3,
         "name": "Node",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 4,
         "name": "MongoDB",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 5,
         "name": "Swift",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 6,
         "name": "Android",
-        "type": "Educational Experience"
+        "type": "Educational experience"
     },
     {
         "id": 7,
         "name": "Java",
-        "type": "Educational Experience"
+        "type": "Educational experience"
     },
     {
         "id": 8,
         "name": "PHP",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 9,
         "name": "MySQL",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 10,
         "name": "Python",
-        "type": "Educational Experience"
+        "type": "Educational experience"
     },
     {
         "id": 11,
         "name": "HTML",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 12,
         "name": "CSS",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 13,
         "name": "Git",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 14,
         "name": "Linux",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     },
     {
         "id": 15,
         "name": "UX",
-        "type": "Professional Experience"
+        "type": "Professional experience"
     }
 ]

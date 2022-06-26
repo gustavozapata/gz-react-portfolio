@@ -16,6 +16,18 @@ export const getAllContentfulData = async () => {
           }
         }
       }
+      skillCollection {
+        items {
+          sys {
+            id
+          }
+          name
+          type
+          image {
+            url
+          }
+        }
+      }
     }`;
 
   const fetchOptions = {
@@ -29,10 +41,12 @@ export const getAllContentfulData = async () => {
     },
     body: JSON.stringify({ query }),
   };
-
   const response = await fetch(endpoint, fetchOptions);
   const jsonData = await response.json();
-  return parseContentfulItems(jsonData.data.projectCollection.items);
+  return {
+    projects: parseContentfulItems(jsonData.data.projectCollection.items),
+    skills: parseContentfulItems(jsonData.data.skillCollection.items),
+  };
 };
 
 const parseContentfulItems = (items) => {
@@ -45,6 +59,7 @@ const parseContentfulItems = (items) => {
         id: item.sys.id,
         image: item.image.url,
       };
-    });
+    })
+    .map(({ sys, ...items }) => items);
   return parsedItems;
 };

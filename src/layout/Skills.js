@@ -4,7 +4,7 @@ import SkillCard from "../components/SkillCard";
 import GZContext from "../context/GZContext";
 import "./styles/Skills.css";
 
-export default function Skills() {
+export default function Skills({ skillsCMS }) {
   const { content, styling } = useContext(GZContext);
 
   return (
@@ -15,7 +15,7 @@ export default function Skills() {
         <p style={styling.gris}></p>
         <main>
           <div className="cards">
-            {skills.map((skill, i) => (
+            {skills.concat(skillsCMS).map((skill, i) => (
               <SkillCard skill={skill} key={i} />
             ))}
           </div>
