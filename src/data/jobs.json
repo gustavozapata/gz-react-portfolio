@@ -1,8 +1,21 @@
 [
     {
-        "id": 1,
+        "id": "9h8m",
+        "company":"Campus",
+        "period": "May 2022 - Present",
+        "role":"Senior Fullstack Engineer",
+        "image":"campus.png",
+        "description":"Developing and implementing client and server-side features on a web-based communications platform with Websockets using services such as messaging, calling and video calling",
+        "modules": [
+            "• Developing and implementing client and server-side features on a web-based communications platform using services such as messaging, calling and video calling",
+            "• Designing user interfaces to meet the business requirements and architect a solution with performance and scalability in mind",
+            "• Improving the codebase of the server application written in Go by refactoring the endpoints and the controllers as well as websockets"
+        ]
+    },
+    {
+        "id": "2s3e",
         "company":"Ascential",
-        "period": "Apr 2021 - Present",
+        "period": "Apr 2021 - May 2022",
         "role":"Product Developer",
         "image":"ascential.png",
         "description":"Developing digital solutions for multiple live events. Building UI components using React and React styled-components. Setting up and customising new platforms and implementing CI/CD",
@@ -14,7 +27,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": "4b6h",
         "company":"Cisco",
         "period": "Aug 2019 - Jul 2020",
         "role":"Software Engineer",
@@ -28,7 +41,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": "2d3r",
         "company": "Sunny Eco",
         "period": "Sep 2018 - Feb 2019",
         "role": "Fullstack Developer",
@@ -36,7 +49,7 @@
         "description": "Designing and developing a fully responsive web application with vanilla JS, jQuery and PHP"
     },
     {
-        "id": 4,
+        "id": "6g2x",
         "company":"SHL",
         "period": "May 2018 - Sep 2018",
         "role":"Web Developer",
@@ -44,7 +57,7 @@
         "description":"Designing and developing a customised version of a web tool for clients such as American Express, Mercedes-Benz, Nomad Foods, Capitec South Africa, and Societe Generale HK"
     },
     {
-        "id": 5,
+        "id": "1p8v",
         "company": "Real Media Now",
         "period": "Dec 2017 - Mar 2018",
         "role": "Web Designer and Web Developer",
