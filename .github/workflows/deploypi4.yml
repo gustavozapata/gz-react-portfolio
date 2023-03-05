@@ -24,7 +24,7 @@ jobs:
           REACT_APP_CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
 
       - name: Upload to server
-        uses: appleboy/scp-action@v2.0.9
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.PI_IP_ADDRESS }}
           username: ${{ secrets.PI_USERNAME }}
