@@ -30,7 +30,6 @@ jobs:
           username: ${{ secrets.PI_USERNAME }}
           password: ${{ secrets.PI_PASSWORD }}
           port: ${{ secrets.PI_SSH_PORT }}
-          overwrite: true
           debug: true
-          source: build/*
+          source: build/
           target: ${{ secrets.PI_TARGET_DIR }}
