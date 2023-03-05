@@ -29,5 +29,6 @@ jobs:
           host: ${{ secrets.PI_IP_ADDRESS }}
           username: ${{ secrets.PI_USERNAME }}
           password: ${{ secrets.PI_PASSWORD }}
+          debug: true
           source: build/
           target: ${{ secrets.PI_TARGET_DIR }}
