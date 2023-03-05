@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   const [projects, setProjects] = useState([]);
   const [skills, setSkills] = useState([]);
-  const { content, styling } = useContext(GZContext);
+  const { styling } = useContext(GZContext);
 
   useEffect(() => {
     const fetchData = async () => {
