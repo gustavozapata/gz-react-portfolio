@@ -31,5 +31,5 @@ jobs:
           password: ${{ secrets.PI_PASSWORD }}
           port: ${{ secrets.PI_SSH_PORT }}
           debug: true
-          source: build/
+          source: build/*
           target: ${{ secrets.PI_TARGET_DIR }}
