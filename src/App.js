@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   const [projects, setProjects] = useState([]);
   const [skills, setSkills] = useState([]);
-  const { styling } = useContext(GZContext);
+  const { content, styling } = useContext(GZContext);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,13 +27,13 @@ function App() {
     <div className="App" style={styling.app}>
       <header className="header">
         <div className="header-top">
-          <p style={styling.aguamarina}>Gustavo ZapataQ</p>
+          <p style={styling.aguamarina}>Gustavo Zapata</p>
           <div>
             <Settings />
           </div>
         </div>
-        {/* <h1 style={styling.amarillo}>{content.TITLE}</h1> */}
-        {/* <h3 style={styling.rosado}>{content.SUB_TITLE}</h3> */}
+        <h1 style={styling.amarillo}>{content.TITLE}</h1>
+        <h3 style={styling.rosado}>{content.SUB_TITLE}</h3>
       </header>
       <main>
         <Skills skillsCMS={skills} />
