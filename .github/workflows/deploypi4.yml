@@ -1,0 +1,33 @@
+name: Deploy to Ubuntu server
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+        env:
+          REACT_APP_CONTENTFUL_SPACE: ${{ secrets.CONTENTFUL_SPACE }}
+          REACT_APP_CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
+
+      - name: Upload to server
+        uses: appleboy/scp-action@v1.1.3
+        with:
+          host: ${{ secrets.PI_IP_ADDRESS }}
+          username: ${{ secrets.PI_USERNAME }}
+          password: ${{ secrets.PI_PASSWORD }}
+          source: build/
+          target: ${{ secrets.PI_TARGET_DIR }}
