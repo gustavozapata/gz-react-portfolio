@@ -8,10 +8,12 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(204, 204, 204);
-  cursor: pointer;
   transition: box-shadow 0.2s;
 }
-.ProjectCard:hover {
+.ProjectCard-with-link {
+  cursor: pointer;
+}
+.ProjectCard-with-link:hover {
   box-shadow: 5px 5px 15px rgb(184, 184, 184);
 }
 .ProjectCard .title {

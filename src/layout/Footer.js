@@ -16,15 +16,15 @@ export default function Footer() {
               JavaScript
             </li>
             <li>
-              <a
-                href="https://reactjs.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={styling.footerLink}
-              >
-                <img src={require("../images/react.png")} alt="React logo" />
-                React
-              </a>
+              <img src={require("../images/react.png")} alt="React logo" />
+              React
+            </li>
+            <li>
+              <img
+                src={require("../images/contentful.png")}
+                alt="Contentful logo"
+              />
+              Contentful
             </li>
           </ul>
         </div>
