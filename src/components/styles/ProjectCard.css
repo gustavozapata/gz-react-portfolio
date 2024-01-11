@@ -71,6 +71,9 @@
   margin: 31px;
 }
 
+.casabudget .project-img img {
+  width: 75px;
+}
 .twentyfivestore .project-img img {
   width: 105px;
 }
