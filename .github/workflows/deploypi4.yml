@@ -34,3 +34,4 @@ jobs:
           source: build/
           strip_components: 1
           target: ${{ secrets.PI_TARGET_DIR }}
+          timeout: 120s
