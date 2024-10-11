@@ -9,6 +9,7 @@ lerna-debug.log*
 # GZ
 Local/
 .DS_Store
+HOWTO.md
 
 # dependencies
 /node_modules
