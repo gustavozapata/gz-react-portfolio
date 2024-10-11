@@ -107,27 +107,26 @@ export default function Footer() {
         </div> */}
         <div>
           <p style={styling.morado}>VERSIONS</p>
-          {/* Testing absolute and relative urls for the versions */}
           <ul>
             <li>
-              <a
+              {/* <a
                 href="https://gustavozapata.me/versions/1.0"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={styling.footerLink}
-              >
-                GZ Version 1.0
-              </a>
+              > */}
+              GZ Version 1.0
+              {/* </a> */}
             </li>
             <li>
-              <a
+              {/* <a
                 href="/versions/2.0"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={styling.footerLink}
-              >
-                GZ Version 2.0
-              </a>
+              > */}
+              GZ Version 2.0
+              {/* </a> */}
             </li>
           </ul>
         </div>
